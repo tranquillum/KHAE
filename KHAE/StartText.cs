@@ -8,6 +8,8 @@ namespace KHAE
 {
     class StartText
     {
+        //Samm 1
+        //EST
 
 
     }
