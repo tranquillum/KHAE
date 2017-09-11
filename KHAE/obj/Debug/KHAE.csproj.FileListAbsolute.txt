@@ -38,3 +38,15 @@ C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.csproj.Generat
 C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
 C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.exe
 C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.pdb
+<<<<<<< HEAD
+=======
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.LangSat.resources
+>>>>>>> Test
