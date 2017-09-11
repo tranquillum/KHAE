@@ -77,7 +77,6 @@
             this.MinimizeBox = false;
             this.Name = "LangSat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LangSat";
             this.ResumeLayout(false);
 
         }
