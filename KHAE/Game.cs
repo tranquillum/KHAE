@@ -83,8 +83,8 @@ namespace KHAE
         {
             if (alusta.Text == "alusta")
             {
-                Story.Text += "*Aeg, see on imelik asi, kas ole? Seda ei ole võimalik tunda, seda ei ole võimalik katsuda..Kui sul poleks kella ei teaks, et ta eksisteeriks kuid ta juhib meid*" + Environment.NewLine;
-                Story.Text += Environment.NewLine + "Mis ma teen edasi?" + Environment.NewLine ;
+                Story.Text += startText.startText_Samm_0(lang) + Environment.NewLine;
+                
                 samm = 1;
                 alusta.Text = "uuesti";
                 v1.Text = "Tõuse püsti";

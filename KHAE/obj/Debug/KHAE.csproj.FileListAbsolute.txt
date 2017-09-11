@@ -18,3 +18,13 @@ D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileIn
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\obj\Debug\KHAE.exe
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\obj\Debug\KHAE.pdb
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\obj\Debug\KHAE.Game.resources
+C:\KHAEteam\KHAE\bin\Debug\KHAE.exe.config
+C:\KHAEteam\KHAE\bin\Debug\KHAE.exe
+C:\KHAEteam\KHAE\bin\Debug\KHAE.pdb
+C:\KHAEteam\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
+C:\KHAEteam\KHAE\obj\Debug\KHAE.Game.resources
+C:\KHAEteam\KHAE\obj\Debug\KHAE.Properties.Resources.resources
+C:\KHAEteam\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
+C:\KHAEteam\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
+C:\KHAEteam\KHAE\obj\Debug\KHAE.exe
+C:\KHAEteam\KHAE\obj\Debug\KHAE.pdb
