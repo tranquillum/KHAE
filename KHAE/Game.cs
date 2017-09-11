@@ -13,6 +13,7 @@ namespace KHAE
     public partial class Game : Form
     {
         // Lokatsiooni lisamine
+        LangSat LangSat = new LangSat();
         Settings settings = new Settings();
         StartLoc startLoc = new StartLoc();
         StartText startText = new StartText();
@@ -33,6 +34,17 @@ namespace KHAE
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            LangSat.ShowDialog();
+            if (LangSat.DialogResult == DialogResult.OK)
+            {
+
+                lang = LangSat.langSat();
+
+            }
+
+
+
+
             alusta.Text = settings.startbtn(lang);
         }
 
