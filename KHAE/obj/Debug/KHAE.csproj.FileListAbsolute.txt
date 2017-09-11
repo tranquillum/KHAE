@@ -28,3 +28,13 @@ C:\KHAEteam\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
 C:\KHAEteam\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
 C:\KHAEteam\KHAE\obj\Debug\KHAE.exe
 C:\KHAEteam\KHAE\obj\Debug\KHAE.pdb
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\KHAE.exe.config
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\KHAE.exe
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\bin\Debug\KHAE.pdb
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.Game.resources
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.Properties.Resources.resources
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.exe
+C:\Users\bigsa\OneDrive\Documents\GitHub\KHAE\KHAE\obj\Debug\KHAE.pdb

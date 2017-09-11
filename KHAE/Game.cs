@@ -13,6 +13,7 @@ namespace KHAE
     public partial class Game : Form
     {
         // Lokatsiooni lisamine
+        Settings settings = new Settings();
         StartLoc startLoc = new StartLoc();
         StartText startText = new StartText();
 
@@ -32,7 +33,7 @@ namespace KHAE
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            alusta.Text = settings.startbtn(lang);
         }
 
         private void alusat_Click(object sender, EventArgs e)
@@ -81,12 +82,12 @@ namespace KHAE
 
         private void alusta_Click(object sender, EventArgs e)
         {
-            if (alusta.Text == "alusta")
+            if (alusta.Text == settings.startbtn(lang))
             {
                 Story.Text += startText.startText_Samm_0(lang) + Environment.NewLine;
                 
                 samm = 1;
-                alusta.Text = "uuesti";
+                alusta.Text = settings.resbtn(lang);
                 v1.Text = startText.bteV1(lang);
                 v2.Text = startText.bteV2(lang);
             }
@@ -94,7 +95,7 @@ namespace KHAE
             else
             {
                 Story.Text = "";
-                alusta.Text = "alusta";
+                alusta.Text = settings.startbtn(lang);
                 samm = 0;
                 v1.Text = "*****";
                 v2.Text = "*****";
