@@ -16,10 +16,13 @@ namespace KHAE
     {
         //Samm 1
         //EST
+        
         string Samm1V1EST = Environment.NewLine + "Ma parem tõusen püsti" + Environment.NewLine+"Mis ma teen edasi?"+Environment.NewLine;
         string Samm1V2EST = Environment.NewLine + "Ma parem hakken liikuma, siin in liiga kulm."+Environment.NewLine+"Aki ma hakkan midagi teha?" + Environment.NewLine;
+        string Samm1V3Est = "Sa oled surnud!!!";
+        string btnV1EST = "Proovin ukse lahti teha";
+        string btnV2EST = "Uurin toas ringi";
 
-        
 
         //ENG
 
@@ -45,6 +48,44 @@ namespace KHAE
             else return null;
            
         }
+        public string startLoc_Surm(string lang)
+        {
+            if (lang == "EST")
+            {
+                return Samm1V3Est;
+
+            }
+            else return null;
+
+        }
+
+        public string bteV1(string lang) //nuppu 1 uus tekst
+        {
+
+            if (lang == "EST")
+            {
+                return btnV1EST;
+
+            }
+
+            else return null;
+
+        }
+
+        public string bteV2(string lang) //nuppe 2 tekst
+        {
+
+            if (lang == "EST")
+            {
+                return btnV2EST;
+
+            }
+
+            else return null;
+
+        }
+
+
         //Samm 2
 
         //EST
