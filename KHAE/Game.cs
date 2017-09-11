@@ -41,6 +41,7 @@ namespace KHAE
             }
 
             alusta.Text = settings.startbtn(lang);
+            this.Text = "Game " + lang;
         }
 
         

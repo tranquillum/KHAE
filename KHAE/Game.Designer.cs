@@ -43,7 +43,7 @@
             // v1
             // 
             this.v1.Location = new System.Drawing.Point(531, 705);
-            this.v1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.v1.Margin = new System.Windows.Forms.Padding(4);
             this.v1.Name = "v1";
             this.v1.Size = new System.Drawing.Size(279, 49);
             this.v1.TabIndex = 1;
@@ -54,7 +54,7 @@
             // v2
             // 
             this.v2.Location = new System.Drawing.Point(817, 705);
-            this.v2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.v2.Margin = new System.Windows.Forms.Padding(4);
             this.v2.Name = "v2";
             this.v2.Size = new System.Drawing.Size(288, 49);
             this.v2.TabIndex = 2;
@@ -65,7 +65,7 @@
             // alusta
             // 
             this.alusta.Location = new System.Drawing.Point(32, 705);
-            this.alusta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.alusta.Margin = new System.Windows.Forms.Padding(4);
             this.alusta.Name = "alusta";
             this.alusta.Size = new System.Drawing.Size(275, 44);
             this.alusta.TabIndex = 4;
@@ -77,7 +77,7 @@
             // 
             this.Story.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.Story.Location = new System.Drawing.Point(531, 15);
-            this.Story.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Story.Margin = new System.Windows.Forms.Padding(4);
             this.Story.MaxLength = 999999999;
             this.Story.Multiline = true;
             this.Story.Name = "Story";
@@ -91,7 +91,7 @@
             this.kapppic.BackgroundImage = global::KHAE.Properties.Resources.kapp;
             this.kapppic.Image = global::KHAE.Properties.Resources.kapp;
             this.kapppic.Location = new System.Drawing.Point(1189, 209);
-            this.kapppic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kapppic.Margin = new System.Windows.Forms.Padding(4);
             this.kapppic.Name = "kapppic";
             this.kapppic.Size = new System.Drawing.Size(132, 113);
             this.kapppic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,7 +103,7 @@
             // 
             this.mainroompic.Image = global::KHAE.Properties.Resources.main;
             this.mainroompic.Location = new System.Drawing.Point(1189, 65);
-            this.mainroompic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainroompic.Margin = new System.Windows.Forms.Padding(4);
             this.mainroompic.Name = "mainroompic";
             this.mainroompic.Size = new System.Drawing.Size(132, 113);
             this.mainroompic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -115,7 +115,7 @@
             // 
             this.mianpic.Image = global::KHAE.Properties.Resources.main;
             this.mianpic.Location = new System.Drawing.Point(16, 15);
-            this.mianpic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mianpic.Margin = new System.Windows.Forms.Padding(4);
             this.mianpic.Name = "mianpic";
             this.mianpic.Size = new System.Drawing.Size(473, 662);
             this.mianpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,10 +135,9 @@
             this.Controls.Add(this.mianpic);
             this.Controls.Add(this.v2);
             this.Controls.Add(this.v1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.kapppic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainroompic)).EndInit();
