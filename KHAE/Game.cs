@@ -21,7 +21,7 @@ namespace KHAE
 
         //Muutujad
         double samm = 0;
-        string lang = "EST";// Praegu on EST parast teha tuhjaks
+        string lang = "";
         double kord = 0;
 
 
@@ -34,25 +34,16 @@ namespace KHAE
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LangSat.ShowDialog();
+            LangSat.ShowDialog(); // peale stardis avada LangSet akken
             if (LangSat.DialogResult == DialogResult.OK)
             {
-
                 lang = LangSat.langSat();
-
             }
-
-
-
 
             alusta.Text = settings.startbtn(lang);
         }
 
-        private void alusat_Click(object sender, EventArgs e)
-        {
-
-           
-        }
+        
         
         private void button1_Click(object sender, EventArgs e)//vasakpoolne nupp x.1
         {
