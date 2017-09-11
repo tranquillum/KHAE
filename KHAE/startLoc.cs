@@ -58,7 +58,7 @@ namespace KHAE
             else return null;
 
         }
-
+        //nuppu teksti muutmine
         public string bteV1(string lang) //nuppu 1 uus tekst
         {
 
@@ -71,7 +71,7 @@ namespace KHAE
             else return null;
 
         }
-
+        //nuppu teksti muutmine
         public string bteV2(string lang) //nuppe 2 tekst
         {
 
