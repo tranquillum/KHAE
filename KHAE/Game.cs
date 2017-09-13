@@ -41,6 +41,9 @@ namespace KHAE
             }
 
             alusta.Text = settings.startbtn(lang);
+            this.Text = "Game " + lang;
+
+            
         }
 
         
@@ -61,7 +64,22 @@ namespace KHAE
 
 
             }
+
+
+
+
+
+
+
+
+
+
+            if (Story.Visible)
+            {
                 
+                Story.SelectionStart = Story.Text.Length;
+                Story.ScrollToCaret();
+            }
         }
         
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
@@ -79,6 +97,18 @@ namespace KHAE
                     v1.Visible = false;
                     v2.Visible = false;
                 }
+            }
+
+
+
+
+
+
+            if (Story.Visible)//hold scroll down
+            {
+                
+                Story.SelectionStart = Story.Text.Length;
+                Story.ScrollToCaret();
             }
 
         }
