@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -23,7 +24,8 @@ namespace KHAE
         double samm = 0;
         string lang = "";
         double kord = 0;
-
+        string texttick = "";
+        int i = 0;
 
         public Game()
         {
@@ -51,8 +53,8 @@ namespace KHAE
         private void button1_Click(object sender, EventArgs e)//vasakpoolne nupp x.1
         {
             if (samm == 1)
-            {         
-                Story.Text += startLoc.startLoc_Samm_1(lang, 1.1) + Environment.NewLine;//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
+            {
+                texttik(startLoc.startLoc_Samm_1(lang, 1.1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
                 samm = 2;
                 kord = 0;
                 v1.Text = startLoc.bteV1(lang);
@@ -86,10 +88,10 @@ namespace KHAE
         {
             if (samm == 1)
             {
-                
-                Story.Text += startLoc.startLoc_Samm_1(lang, 1.2) + Environment.NewLine;
+
+                texttik( startLoc.startLoc_Samm_1(lang, 1.2));
                 kord++;
-                if (kord ==4)
+                if (kord >=4)
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
@@ -117,8 +119,8 @@ namespace KHAE
         {
             if (alusta.Text == settings.startbtn(lang))
             {
-                Story.Text += startText.startText_Samm_0(lang) + Environment.NewLine;
-                
+                texttik(startText.startText_Samm_0(lang));
+ 
                 samm = 1;
                 alusta.Text = settings.resbtn(lang);
                 v1.Text = startText.bteV1(lang);
@@ -142,6 +144,39 @@ namespace KHAE
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+        
+        public void texttik(string text)
+        {
+            timer1.Enabled = true;
+            texttick = text;
+
+        }
+
+       
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+            if(i< texttick.Length)
+            {
+                 
+                Story.Text += texttick[i];
+                i++;
+            }
+            else
+            {
+                i = 0;
+                timer1.Enabled = false;
+            }
+
+            //for (int i = 0; i < startText.startText_Samm_0(lang).Length; i++)
+            //{
+               
+            //    Story.Text += startText.startText_Samm_0(lang)[i];
+            //}
+            
         }
     }
 }

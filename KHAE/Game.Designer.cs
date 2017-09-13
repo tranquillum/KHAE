@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.v1 = new System.Windows.Forms.Button();
             this.v2 = new System.Windows.Forms.Button();
             this.alusta = new System.Windows.Forms.Button();
@@ -35,6 +36,7 @@
             this.kapppic = new System.Windows.Forms.PictureBox();
             this.mainroompic = new System.Windows.Forms.PictureBox();
             this.mianpic = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.kapppic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainroompic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mianpic)).BeginInit();
@@ -118,6 +120,11 @@
             this.mianpic.TabStop = false;
             this.mianpic.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,6 +156,7 @@
         private System.Windows.Forms.TextBox Story;
         private System.Windows.Forms.PictureBox mainroompic;
         private System.Windows.Forms.PictureBox kapppic;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
