@@ -75,7 +75,7 @@
             // Story
             // 
             this.Story.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Story.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Story.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.Story.Location = new System.Drawing.Point(398, 12);
             this.Story.MaxLength = 999999999;
             this.Story.Multiline = true;
@@ -85,12 +85,13 @@
             this.Story.Size = new System.Drawing.Size(431, 538);
             this.Story.TabIndex = 5;
             this.Story.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Story.UseWaitCursor = true;
             // 
             // kapppic
             // 
             this.kapppic.BackgroundImage = global::KHAE.Properties.Resources.kapp;
             this.kapppic.Image = global::KHAE.Properties.Resources.kapp;
-            this.kapppic.Location = new System.Drawing.Point(892, 170);
+            this.kapppic.Location = new System.Drawing.Point(1103, 110);
             this.kapppic.Name = "kapppic";
             this.kapppic.Size = new System.Drawing.Size(99, 92);
             this.kapppic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,7 +102,7 @@
             // mainroompic
             // 
             this.mainroompic.Image = global::KHAE.Properties.Resources.main;
-            this.mainroompic.Location = new System.Drawing.Point(892, 53);
+            this.mainroompic.Location = new System.Drawing.Point(1103, 12);
             this.mainroompic.Name = "mainroompic";
             this.mainroompic.Size = new System.Drawing.Size(99, 92);
             this.mainroompic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,14 +123,14 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 10;
+            this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(838, 639);
+            this.ClientSize = new System.Drawing.Size(1214, 639);
             this.Controls.Add(this.kapppic);
             this.Controls.Add(this.mainroompic);
             this.Controls.Add(this.Story);

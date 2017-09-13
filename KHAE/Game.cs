@@ -52,6 +52,7 @@ namespace KHAE
         
         private void button1_Click(object sender, EventArgs e)//vasakpoolne nupp x.1
         {
+
             if (samm == 1)
             {
                 texttik(startLoc.startLoc_Samm_1(lang, 1.1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
@@ -61,6 +62,7 @@ namespace KHAE
                 v2.Text = startLoc.bteV2(lang);
                 mianpic.Image = kapppic.Image;
             }
+
             if (samm==2)
             {
 
@@ -88,16 +90,22 @@ namespace KHAE
         {
             if (samm == 1)
             {
-
-                texttik( startLoc.startLoc_Samm_1(lang, 1.2));
                 kord++;
-                if (kord >=4)
+
+                
+                
+                if (kord ==4)
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
                     Story.Text += Environment.NewLine+ startLoc.startLoc_Surm(lang) + Environment.NewLine;
                     v1.Visible = false;
                     v2.Visible = false;
+                    kord = 0;
+                }
+                else
+                {
+                    texttik(startLoc.startLoc_Samm_1(lang, 1.2));
                 }
             }
 
@@ -146,37 +154,42 @@ namespace KHAE
 
         }
         
+
+
+
+
+
+
+
+        //teksti taimer
         public void texttik(string text)
         {
             timer1.Enabled = true;
             texttick = text;
-
         }
 
-       
-
-
         private void timer1_Tick(object sender, EventArgs e)
-        {
-            
+        {         
             if(i< texttick.Length)
-            {
-                 
+            {             
                 Story.Text += texttick[i];
                 i++;
+                v1.Enabled = false;
+                v2.Enabled = false;
+                alusta.Enabled = false;
             }
             else
             {
                 i = 0;
                 timer1.Enabled = false;
-            }
-
-            //for (int i = 0; i < startText.startText_Samm_0(lang).Length; i++)
-            //{
-               
-            //    Story.Text += startText.startText_Samm_0(lang)[i];
-            //}
-            
+                v1.Enabled = true;
+                v2.Enabled = true;
+                alusta.Enabled = true;
+            }         
         }
+
+
+
+
     }
 }
