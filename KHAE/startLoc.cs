@@ -43,8 +43,8 @@ namespace KHAE
 
         string Samm1V3Est = "!!!!Kirjuta texti!!!!!";
 
-        string btnV1EST = "Tõuse Püsti";
-        string btnV2EST = "Lama Edasi";
+        string btnSamm1V1EST = "Tõuse Püsti";
+        string btnSamm1V2EST = "Lama Edasi";
 
 
         //ENG
@@ -53,17 +53,23 @@ namespace KHAE
 
         //Funktsionid
 
-        public  string startLoc_Samm_1(string lang, double variant)
+
+
+
+
+
+
+        public  string startLoc_Samm_1(string lang, int variant)
         {
             
-            if (lang == "EST" && variant == 1.1)
+            if (lang == "EST" && variant == 1)
             {
                 return Samm1V1EST;
 
             }
             
 
-            if (lang == "EST" && variant == 1.2)
+            if (lang == "EST" && variant == 2)
             {
                 return Samm1V2EST;
 
@@ -82,22 +88,50 @@ namespace KHAE
 
         }
         //nuppu teksti muutmine
-        public string btnSamm1(string lang, int versioon) 
+
+        public string btnSamm1(string lang, int versioon) //nuppu 1 uus tekst
         {
 
-            if (lang == "EST"&& versioon==1)
+            if (versioon == 1)
             {
-                return btnV1EST;
+                if (lang == "EST")
+                {
+                    return btnSamm1V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
 
             }
-            else if (lang == "EST" && versioon == 2)
+            else if (versioon == 2)
             {
-                return btnV2EST;
+                if (lang == "EST")
+                {
+                    return btnSamm1V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+
             }
 
             else return null;
 
         }
+
        
 
         
@@ -117,10 +151,10 @@ namespace KHAE
             "..Mul on vaja siit ära saada" + Environment.NewLine 
             ;
 
-        string Samm2V2EST = "";
+        string Samm2V2EST = Environment.NewLine + File.ReadAllText(@"..\..\GameTexts\StartLoc.txt", System.Text.Encoding.UTF8);
 
 
-       string btnSamm2V1EST = "Uuri nurgas olevat kappi";
+        string btnSamm2V1EST = "Uuri nurgas olevat kappi";
         string btnSamm2V2EST = "Proovi ust lahti teha";
 
 
@@ -133,17 +167,17 @@ namespace KHAE
 
         //Funktsionid
 
-        public string startLoc_Samm_2(string lang, double variant)
+        public string startLoc_Samm_2(string lang, int variant)
         {
 
-            if (lang == "EST" && variant == 2.1)
+            if (lang == "EST" && variant == 1)
             {
                 return Samm2V1EST;
 
             }
 
 
-            if (lang == "EST" && variant == 2.2)
+            if (lang == "EST" && variant == 2)
             {
                 return Samm2V2EST;
 
@@ -153,24 +187,50 @@ namespace KHAE
         }
 
         //nuppu teksti muutmine
-        public string btnSamm2(string lang, int versioon) 
+        public string btnSamm2(string lang, int versioon) //nuppu 1 uus tekst
         {
 
-            if (lang == "EST"&& versioon==1)
+            if (versioon == 1)
             {
-                return btnSamm2V1EST;
+                if (lang == "EST")
+                {
+                    return btnSamm2V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
 
             }
-            else if (lang == "EST" && versioon == 2)
+            else if (versioon == 2)
             {
-                return btnSamm2V2EST;
+                if (lang == "EST")
+                {
+                    return btnSamm2V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+
             }
 
             else return null;
 
         }
-       
-        
+
+
 
     }
 }

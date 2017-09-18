@@ -20,8 +20,8 @@ namespace KHAE
             "*Sa kuuled valju sahinat*" + Environment.NewLine + 
             "*Sa tunned külma põrandat enda all*";
 
-        string btnV1EST = "Ava Silmad";
-        string btnV2EST = "Lama Edasi";
+        string btnSamm0V1EST = "Ava Silmad";
+        string btnSamm0V2EST = "Lama Edasi";
 
         public string startText_Samm_0(string lang)
         {
@@ -40,14 +40,40 @@ namespace KHAE
         public string btnSamm0(string lang, int versioon) //nuppu 1 uus tekst
         {
 
-            if (lang == "EST"&& versioon ==1)
+            if ( versioon ==1)
             {
-                return btnV1EST;
+                if (lang == "EST")
+                {
+                    return btnSamm0V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
 
             }
-            else if (lang == "EST" && versioon == 2)
+            else if (versioon == 2)
             {
-                return btnV2EST;
+                if (lang == "EST")
+                {
+                    return btnSamm0V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+
             }
 
             else return null;
