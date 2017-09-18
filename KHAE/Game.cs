@@ -58,8 +58,8 @@ namespace KHAE
                 texttik(startLoc.startLoc_Samm_1(lang, 1.1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
                 samm = 2;
                 kord = 0;
-                v1.Text = startLoc.bteV1(lang);
-                v2.Text = startLoc.bteV2(lang);
+                v1.Text = startLoc.btnSamm1(lang,1);
+                v2.Text = startLoc.btnSamm1(lang,2);
                 mianpic.Image = kapppic.Image;
             }
             //sam2
@@ -67,7 +67,12 @@ namespace KHAE
 
             if (samm==2)
             {
-
+                texttik(startLoc.startLoc_Samm_2(lang, 2.1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
+                samm = 3;
+                kord = 0;
+                v1.Text = startLoc.btnSamm2(lang,1);
+                v2.Text = startLoc.btnSamm2(lang,2);
+                mianpic.Image = kapppic.Image;
 
 
 
@@ -137,8 +142,8 @@ namespace KHAE
  
                 samm = 1;
                 alusta.Text = settings.resbtn(lang);
-                v1.Text = startText.bteV1(lang);
-                v2.Text = startText.bteV2(lang);
+                v1.Text = startText.btnSamm0(lang,1);
+                v2.Text = startText.btnSamm0(lang,2);
             }
 
             else

@@ -37,31 +37,24 @@ namespace KHAE
         }
 
 
-        public string bteV1(string lang) //nuppu 1 uus tekst
+        public string btnSamm0(string lang, int versioon) //nuppu 1 uus tekst
         {
 
-            if (lang == "EST")
+            if (lang == "EST"&& versioon ==1)
             {
                 return btnV1EST;
 
             }
-
-            else return null;
-
-        }
-
-        public string bteV2(string lang) //nuppe 2 tekst
-        {
-
-            if (lang == "EST")
+            else if (lang == "EST" && versioon == 2)
             {
                 return btnV2EST;
-
             }
 
             else return null;
 
         }
+
+       
 
     }
 }

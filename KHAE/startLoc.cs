@@ -82,31 +82,23 @@ namespace KHAE
 
         }
         //nuppu teksti muutmine
-        public string bteV1(string lang) //nuppu 1 uus tekst
+        public string btnSamm1(string lang, int versioon) 
         {
 
-            if (lang == "EST")
+            if (lang == "EST"&& versioon==1)
             {
                 return btnV1EST;
 
             }
-
-            else return null;
-
-        }
-        //nuppu teksti muutmine
-        public string bteV2(string lang) //nuppe 2 tekst
-        {
-
-            if (lang == "EST")
+            else if (lang == "EST" && versioon == 2)
             {
                 return btnV2EST;
-
             }
 
             else return null;
 
         }
+       
 
         
 
@@ -141,9 +133,44 @@ namespace KHAE
 
         //Funktsionid
 
+        public string startLoc_Samm_2(string lang, double variant)
+        {
+
+            if (lang == "EST" && variant == 2.1)
+            {
+                return Samm2V1EST;
+
+            }
 
 
+            if (lang == "EST" && variant == 2.2)
+            {
+                return Samm2V2EST;
 
+            }
+            else return null;
+
+        }
+
+        //nuppu teksti muutmine
+        public string btnSamm2(string lang, int versioon) 
+        {
+
+            if (lang == "EST"&& versioon==1)
+            {
+                return btnSamm2V1EST;
+
+            }
+            else if (lang == "EST" && versioon == 2)
+            {
+                return btnSamm2V2EST;
+            }
+
+            else return null;
+
+        }
+       
+        
 
     }
 }
