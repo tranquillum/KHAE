@@ -17,27 +17,13 @@ namespace KHAE
         //Samm 1
         //EST
         
-        string Samm1V1EST = Environment.NewLine + Environment.NewLine+ Environment.NewLine+
-            "*Sa avad silmad*" + Environment.NewLine+ 
-            "*Sa oled ruumis kus seinad on  mustad ning imevad kõik valguse endasse*" + Environment.NewLine+
-            "*Näeb välja, et sa oled kuskil keldris*" + Environment.NewLine +
-            "*Seinal vilgub tõrvik illumineerib natuke ruumist*" + Environment.NewLine +
-            "*Ruumi paremas nurgas vedeleb kapp vastu seina*" + Environment.NewLine +
-           "*Vasakul kapist on trellidest uks*" + Environment.NewLine +
-            "*Sa vaatad ümberringi, veidi segaduses leides mitte kedagi*" + Environment.NewLine +
-            "*Sinu kõrval on kivid ning laes on auk, arvata võib, et nad kukkusid sealt*" + Environment.NewLine + Environment.NewLine+
-            "Kus ma olen?..Mis juhtus.?"
-            ;
+        string Samm1V1EST = Environment.NewLine + Environment.NewLine+ Environment.NewLine+ 
+            File.ReadAllText(@"..\..\GameTexts\Samm1V1EST.txt");
 
 
 
         string Samm1V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
-            "*Sa lamad edasi*" + Environment.NewLine +
-            "*Püsti tõustes sa lööd oma pea ära*" + Environment.NewLine +
-            "* Su peavalu suureneb*" + Environment.NewLine +
-        "!#!#Ehkki oleks targem sul silmad avada?" + Environment.NewLine +
-        "*Sa kuuled häält nagu oleks keegi su kõrval*" + Environment.NewLine +
-        "*Kõik on pime*" + Environment.NewLine ;
+             File.ReadAllText(@"..\..\GameTexts\Samm1V2EST.txt");
 
 
 

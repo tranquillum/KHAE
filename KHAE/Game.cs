@@ -41,9 +41,14 @@ namespace KHAE
             {
                 lang = LangSat.langSat();
             }
-
+            else
+            {
+                this.Close();
+            }
+            //this.WindowState = FormWindowState.Maximized;
             alusta.Text = settings.startbtn(lang);
             this.Text = "Game " + lang;
+            
 
             
         }
@@ -145,29 +150,7 @@ namespace KHAE
 
         private void alusta_Click(object sender, EventArgs e)
         {
-            if (alusta.Text == settings.startbtn(lang)) //samm 0 start text
-            {
-                texttik(startText.startText_Samm_0(lang));
- 
-                
-                alusta.Text = settings.resbtn(lang);
-                v1.Text = startText.btnSamm0(lang,1);
-                v2.Text = startText.btnSamm0(lang,2);
-                samm = 1;
-            }
-
-            else
-            {
-                Story.Text = "";
-                alusta.Text = settings.startbtn(lang);
-                samm = 0;
-                v1.Text = "*****";
-                v2.Text = "*****";
-                v1.Visible = true;
-                v2.Visible = true;
-                Story.ForeColor = System.Drawing.Color.Black;
-                mianpic.Image = mainroompic.Image;
-            }
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -198,6 +181,12 @@ namespace KHAE
                 v1.Enabled = false;
                 v2.Enabled = false;
                 alusta.Enabled = false;
+                if (Story.Visible)
+                {
+
+                    Story.SelectionStart = Story.Text.Length;
+                    Story.ScrollToCaret();
+                }
             }
             else
             {
@@ -209,8 +198,41 @@ namespace KHAE
             }         
         }
 
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void alusta_Click_1(object sender, EventArgs e)
+        {
+            if (alusta.Text == settings.startbtn(lang)) //samm 0 start text
+            {
+                texttik(startText.startText_Samm_0(lang));
 
 
+                alusta.Text = settings.resbtn(lang);
+                v1.Text = startText.btnSamm0(lang, 1);
+                v2.Text = startText.btnSamm0(lang, 2);
+                samm = 1;
+            }
 
+            else
+            {
+                Story.Text = "";
+                alusta.Text = settings.startbtn(lang);
+                samm = 0;
+                v1.Text = "";
+                v2.Text = "";
+                v1.Visible = true;
+                v2.Visible = true;
+                Story.ForeColor = System.Drawing.Color.Black;
+                mianpic.Image = mainroompic.Image;
+            }
+        }
     }
 }
