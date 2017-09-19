@@ -49,26 +49,34 @@ namespace KHAE
         }
 
         
-        
+        //Button 1
         private void button1_Click(object sender, EventArgs e)//vasakpoolne nupp x.1
         {
-
-            if (samm == 1)
+            //samm1
+            if (samm == 1)//start lock
             {
-                texttik(startLoc.startLoc_Samm_1(lang, 1.1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
-                samm = 2;
+                texttik(startLoc.startLoc_Samm_1(lang, 1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
+                
                 kord = 0;
-                v1.Text = startLoc.bteV1(lang);
-                v2.Text = startLoc.bteV2(lang);
+                v1.Text = startLoc.btnSamm1(lang, 1);
+                v2.Text = startLoc.btnSamm1(lang, 2);
                 mianpic.Image = kapppic.Image;
+                samm = 2;
             }
+            //sam2
 
-            if (samm==2)
+
+            else if (samm==2)
             {
-
-
+                texttik(startLoc.startLoc_Samm_2(lang, 1));//(lang, 1.1) lang - keel, 1.1 - vastuse variant(1- samm, 1-varian)
+                
+                kord = 0;
+                v1.Text = startLoc.btnSamm2(lang,1);
+                v2.Text = startLoc.btnSamm2(lang,2);
+                mianpic.Image = kapppic.Image;
+                samm = 3;
             }
-
+            //samm3
 
 
 
@@ -85,16 +93,20 @@ namespace KHAE
                 Story.ScrollToCaret();
             }
         }
-        
+
+
+
+        //Button 2
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
         {
-            if (samm == 1)
+            //samm1
+            if (samm == 1)//start lock
             {
                 kord++;
 
                 
                 
-                if (kord ==4)
+                if (kord ==2)
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
@@ -105,10 +117,18 @@ namespace KHAE
                 }
                 else
                 {
-                    texttik(startLoc.startLoc_Samm_1(lang, 1.2));
+                    texttik(startLoc.startLoc_Samm_1(lang, 2));
+
+
                 }
             }
+            //samm2
+            else if (samm ==2)
+            {
+                texttik(startLoc.startLoc_Samm_2(lang, 2));
 
+
+            }
 
 
 
@@ -125,14 +145,15 @@ namespace KHAE
 
         private void alusta_Click(object sender, EventArgs e)
         {
-            if (alusta.Text == settings.startbtn(lang))
+            if (alusta.Text == settings.startbtn(lang)) //samm 0 start text
             {
                 texttik(startText.startText_Samm_0(lang));
  
-                samm = 1;
+                
                 alusta.Text = settings.resbtn(lang);
-                v1.Text = startText.bteV1(lang);
-                v2.Text = startText.bteV2(lang);
+                v1.Text = startText.btnSamm0(lang,1);
+                v2.Text = startText.btnSamm0(lang,2);
+                samm = 1;
             }
 
             else
