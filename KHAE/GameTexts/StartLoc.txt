@@ -1,8 +1,10 @@
 StartLoc
 //Samm1ESTv1
-Ma parem tõusen püsti
+Ma parem tÅ‘usen pÃ¼sti
 Mis ma teen edasi?
 
 //Samm2ESTv2
-Ma parem hakken liikuma, "siin in liiga kulm."õüõüü
+Ma parem hakken liikuma, "siin in liiga kulm."Å‘Ã¼Å‘Ã¼Ã¼
 Aki ma hakkan midagi teha?
+
+ISO 8859-4
