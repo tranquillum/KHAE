@@ -36,8 +36,8 @@
             this.mianpic = new System.Windows.Forms.PictureBox();
             this.alusta = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.exit = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.exit = new System.Windows.Forms.Button();
             this.Story = new System.Windows.Forms.TextBox();
             this.v2 = new System.Windows.Forms.Button();
             this.v1 = new System.Windows.Forms.Button();
@@ -87,7 +87,7 @@
             this.mianpic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mianpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mianpic.Image = global::KHAE.Properties.Resources.main;
-            this.mianpic.Location = new System.Drawing.Point(13, 65);
+            this.mianpic.Location = new System.Drawing.Point(13, 67);
             this.mianpic.Margin = new System.Windows.Forms.Padding(4);
             this.mianpic.Name = "mianpic";
             this.mianpic.Size = new System.Drawing.Size(474, 632);
@@ -103,10 +103,10 @@
             this.alusta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.alusta.Font = new System.Drawing.Font("Lucida Fax", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alusta.ForeColor = System.Drawing.Color.Black;
-            this.alusta.Location = new System.Drawing.Point(96, 705);
+            this.alusta.Location = new System.Drawing.Point(13, 707);
             this.alusta.Margin = new System.Windows.Forms.Padding(4);
             this.alusta.Name = "alusta";
-            this.alusta.Size = new System.Drawing.Size(279, 49);
+            this.alusta.Size = new System.Drawing.Size(474, 54);
             this.alusta.TabIndex = 10;
             this.alusta.Text = "Alusta";
             this.alusta.UseVisualStyleBackColor = false;
@@ -122,6 +122,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1523, 60);
             this.panel2.TabIndex = 9;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(1058, 60);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(469, 726);
+            this.panel3.TabIndex = 10;
             // 
             // exit
             // 
@@ -136,13 +144,6 @@
             this.exit.TabIndex = 10;
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(1058, 60);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(469, 726);
-            this.panel3.TabIndex = 10;
             // 
             // Story
             // 
@@ -170,10 +171,10 @@
             this.v2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.v2.Font = new System.Drawing.Font("Lucida Fax", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.v2.ForeColor = System.Drawing.Color.Black;
-            this.v2.Location = new System.Drawing.Point(843, 705);
+            this.v2.Location = new System.Drawing.Point(495, 777);
             this.v2.Margin = new System.Windows.Forms.Padding(4);
             this.v2.Name = "v2";
-            this.v2.Size = new System.Drawing.Size(322, 56);
+            this.v2.Size = new System.Drawing.Size(672, 56);
             this.v2.TabIndex = 2;
             this.v2.UseVisualStyleBackColor = false;
             this.v2.Click += new System.EventHandler(this.button2_Click);
@@ -189,7 +190,7 @@
             this.v1.Location = new System.Drawing.Point(495, 705);
             this.v1.Margin = new System.Windows.Forms.Padding(4);
             this.v1.Name = "v1";
-            this.v1.Size = new System.Drawing.Size(322, 56);
+            this.v1.Size = new System.Drawing.Size(672, 56);
             this.v1.TabIndex = 1;
             this.v1.UseVisualStyleBackColor = false;
             this.v1.Click += new System.EventHandler(this.button1_Click);
@@ -232,7 +233,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CancelButton = this.exit;
-            this.ClientSize = new System.Drawing.Size(1523, 786);
+            this.ClientSize = new System.Drawing.Size(1523, 846);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.v1);

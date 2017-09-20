@@ -18,12 +18,12 @@ namespace KHAE
         //EST
         
         string Samm1V1EST = Environment.NewLine + Environment.NewLine+ Environment.NewLine+ 
-            File.ReadAllText(@"..\..\GameTexts\Samm1V1EST.txt");
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm1V1EST.txt"); //Ava silmad
 
 
 
         string Samm1V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
-             File.ReadAllText(@"..\..\GameTexts\Samm1V2EST.txt");
+             File.ReadAllText(@"..\..\GameTexts\EST\Samm1V2EST.txt"); //lama edasi
 
 
 
@@ -41,26 +41,46 @@ namespace KHAE
 
 
 
-
-
-
-
-        public  string startLoc_Samm_1(string lang, int variant)
+        public  string startLoc_Samm_1(string lang, int variant)//story samm1
         {
-            
-            if (lang == "EST" && variant == 1)
+            if(variant == 1)
             {
-                return Samm1V1EST;
+                if (lang == "EST")
+                {
+                    return Samm1V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
 
             }
-            
-
-            if (lang == "EST" && variant == 2)
+            else if (variant == 2)
             {
-                return Samm1V2EST;
+                if (lang == "EST")
+                {
+                    return Samm1V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
 
             }
+
             else return null;
+        
            
         }
         public string startLoc_Surm(string lang)
@@ -75,10 +95,10 @@ namespace KHAE
         }
         //nuppu teksti muutmine
 
-        public string btnSamm1(string lang, int versioon) //nuppu 1 uus tekst
+        public string btnSamm1(string lang, int variant) //nuppud samm1
         {
 
-            if (versioon == 1)
+            if (variant == 1)
             {
                 if (lang == "EST")
                 {
@@ -96,7 +116,7 @@ namespace KHAE
                 else return null;
 
             }
-            else if (versioon == 2)
+            else if (variant == 2)
             {
                 if (lang == "EST")
                 {
@@ -123,26 +143,21 @@ namespace KHAE
         
 
 
-        //Samm 2
+        //-------------------------------Samm 2--------------------------------------------------
 
         //EST
         string Samm2V1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
-            "*Sa tõused, kloppides oma riideid tolmust*" + Environment.NewLine +
-            "* Sa uurid toas veidi segaduses olles ringi*" + Environment.NewLine +
-            "..Kuidas ma siia sain" + Environment.NewLine +
-            "*Tugev pea valu lööb sulle pähe*" + Environment.NewLine +
-            "*Mingi hääl hakkab rääkima*" + Environment.NewLine +
-           "!#!@%:..Aeg ütleb.." + Environment.NewLine +
-            "*Sa vaatad segaduses ringi, leides mitte kedagi*" + Environment.NewLine +
-            "..Mul on vaja siit ära saada" + Environment.NewLine 
-            ;
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm2V1EST.txt");//Touse pusti
 
-        string Samm2V2EST = Environment.NewLine + File.ReadAllText(@"..\..\GameTexts\StartLoc.txt", System.Text.Encoding.UTF8);
+        string Samm2V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm2V2EST.txt");//lama edasi
+
+        string Samm2VfuckOff = Environment.NewLine + "Ei viitsi enam seda teha." + Environment.NewLine + "Fuck off!"+Environment.NewLine ;
 
 
         string btnSamm2V1EST = "Uuri nurgas olevat kappi";
         string btnSamm2V2EST = "Proovi ust lahti teha";
-
+        
 
 
 
@@ -153,30 +168,60 @@ namespace KHAE
 
         //Funktsionid
 
-        public string startLoc_Samm_2(string lang, int variant)
+        public string startLoc_Samm_2(string lang, int variant) //story samm2
         {
+            
 
-            if (lang == "EST" && variant == 1)
+            if (variant == 1)
             {
-                return Samm2V1EST;
+                if (lang == "EST")
+                {
+                    return Samm2V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
+
+            }
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                  return Samm2V2EST;
+               
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
 
             }
 
-
-            if (lang == "EST" && variant == 2)
-            {
-                return Samm2V2EST;
-
-            }
             else return null;
+
 
         }
 
+        
+    
+
         //nuppu teksti muutmine
-        public string btnSamm2(string lang, int versioon) //nuppu 1 uus tekst
+        public string btnSamm2(string lang, int variant) //nuppud samm2
         {
 
-            if (versioon == 1)
+            if (variant == 1)
             {
                 if (lang == "EST")
                 {
@@ -194,11 +239,137 @@ namespace KHAE
                 else return null;
 
             }
-            else if (versioon == 2)
+            else if (variant == 2)
             {
                 if (lang == "EST")
                 {
                     return btnSamm2V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+
+            }
+
+            else return null;
+
+        }
+        //----------------SAMM3-------------------------
+        //EST
+        string Samm3V1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm3V1EST.txt");//Uuri nurgas olevat kappi
+
+        string Samm3V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm3V2EST.txt");//proovi uks
+
+        string Samm3VfuckOff = Environment.NewLine + Environment.NewLine + "Ei viitsi enam seda teha." + Environment.NewLine + "Fuck off!" + Environment.NewLine;
+
+
+        string btnSamm3V1EST = "Võtta võtti";
+        string btnSamm3V2EST = "Uuri toas edasi";
+
+
+
+
+
+        //ENG
+
+
+
+        //Funktsionid
+
+        public string startLoc_Samm_3(string lang, int variant) //story samm2
+        {
+
+
+            if (variant == 1)
+            {
+                if (lang == "EST")
+                {
+                    return Samm3V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
+
+            }
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                    return Samm3V2EST;
+
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+
+            }
+
+            else return null;
+
+
+        }
+
+        public string satrtLock_FuckOff(string lang)
+        {
+
+            if (lang == "EST")
+            {
+                return Samm3VfuckOff;
+
+            }
+            else return null;
+
+        }
+
+
+        //nuppu teksti muutmine
+        public string btnSamm3(string lang, int variant) //nuppud samm2
+        {
+
+            if (variant == 1)
+            {
+                if (lang == "EST")
+                {
+                    return btnSamm3V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+
+                else return null;
+
+            }
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                    return btnSamm3V2EST;
                 }
                 else if (lang == "ENG")
                 {
