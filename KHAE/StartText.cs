@@ -11,7 +11,7 @@ namespace KHAE
     {
         //Samm 0
         //EST
-        string sammSamm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLoc.txt"); //KHAE\GameTexts folder
+        string sammSamm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt"); //KHAE\GameTexts folder
 
         string btnSamm0V1EST = "Ava Silmad";
         string btnSamm0V2EST = "Lama Edasi";
