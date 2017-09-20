@@ -124,7 +124,7 @@ namespace KHAE
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
-                    texttik(startLoc.startLoc_Surm(lang));
+                    texttik(startLoc.startLoc_Samm1_V3(lang));
                     v1.Visible = false;
                     v2.Visible = false;
                     kord = 0;
@@ -152,7 +152,7 @@ namespace KHAE
                 kord++;
                 if (kord >= 4)
                 {
-                    texttik(startLoc.satrtLock_FuckOff(lang));
+                    texttik(startLoc.satrtLock_Samm3_V3(lang));
 
                 }
                 else
