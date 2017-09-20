@@ -220,7 +220,7 @@ namespace KHAE
             else return null;
         }
 
-        public string startLoc_Samm2_V3(string lang)//KORVAL STORY
+        public string startLoc_Samm_2_V3(string lang)//KORVAL STORY
         {
             if (lang == "EST")
             {
@@ -320,12 +320,13 @@ namespace KHAE
                 }
                 else if (lang == "ENG")
                 {
-                    return null;
+                    return Samm3V1ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return null;
+                    return Samm3V1RUS;
                 }
+
                 else return null;
             }
             else if (variant == 2)
@@ -333,21 +334,22 @@ namespace KHAE
                 if (lang == "EST")
                 {
                     return Samm3V2EST;
+
                 }
                 else if (lang == "ENG")
                 {
-                    return null;
+                    return Samm3V2ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return null;
+                    return Samm3V2RUS;
                 }
                 else return null;
             }
             else return null;
         }
 
-        public string satrtLock_Samm3_V3(string lang)
+        public string startLock_Samm3_V3(string lang)
         {
             if (lang == "EST")
             {
@@ -371,15 +373,15 @@ namespace KHAE
             {
                 if (lang == "EST")
                 {
-                    return Samm3V1EST;
+                    return btnSamm3V1EST;
                 }
                 else if (lang == "ENG")
                 {
-                    return Samm3V1ENG;
+                    return btnSamm3V1ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return Samm3V1RUS;
+                    return btnSamm3V1RUS;
                 }
                 else return null;
             }
@@ -387,15 +389,15 @@ namespace KHAE
             {
                 if (lang == "EST")
                 {
-                    return Samm3V2EST;
+                    return btnSamm3V2EST;
                 }
                 else if (lang == "ENG")
                 {
-                    return Samm3V2ENG;
+                    return btnSamm3V2ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return Samm3V2RUS;
+                    return btnSamm3V2RUS;
                 }
                 else return null;
             }

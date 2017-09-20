@@ -57,8 +57,10 @@ namespace KHAE
         //Button 1
         private void button1_Click(object sender, EventArgs e)
         {
-            //samm1
-            if (samm == 1)//start lock
+            //samm0
+            if (samm == 0)//start lock
+             //samm1
+
             {
                 texttik(startLoc.startLoc_Samm_1(lang, 1));
                 
@@ -66,12 +68,13 @@ namespace KHAE
                 v1.Text = startLoc.btnSamm1(lang, 1);
                 v2.Text = startLoc.btnSamm1(lang, 2);
                 mianpic.Image = kapppic.Image;
-                samm = 2;
-            }
+                samm = 1;
+                
+            }          
+            else if (samm==1)
             //sam2
 
 
-            else if (samm==2)
             {
                 texttik(startLoc.startLoc_Samm_2(lang, 1));
                 
@@ -79,16 +82,17 @@ namespace KHAE
                 v1.Text = startLoc.btnSamm2(lang,1);
                 v2.Text = startLoc.btnSamm2(lang,2);
                 mianpic.Image = kapppic.Image;
-                samm = 3;
+                samm = 2;
+                
             }
             //samm3
             else if (samm == 2)
             {
-                //texttik(startLoc.startLoc_Samm_3(lang, 1));
+                texttik(startLoc.startLoc_Samm_3(lang, 1));
 
                 kord = 0;
-                //v1.Text = startLoc.btnSamm3(lang, 1);
-                //v2.Text = startLoc.btnSamm3(lang, 2);
+                v1.Text = startLoc.btnSamm3(lang, 1);
+                v2.Text = startLoc.btnSamm3(lang, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 3;
             }
@@ -114,7 +118,7 @@ namespace KHAE
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
         {
             //samm1
-            if (samm == 1)//start lock
+            if (samm==0)//start lock
             {
                 kord++;
 
@@ -137,9 +141,19 @@ namespace KHAE
                 }
             }
             //samm2
-            else if (samm ==2)
+            else if (samm ==1)
             {
-                
+                kord++;
+                if (kord >= 4)
+                {
+                    texttik(startLoc.startLoc_Samm_2_V3(lang));
+
+                }
+                else
+                {
+
+                    texttik(startLoc.startLoc_Samm_2(lang, 2));
+                }
 
 
 
@@ -147,19 +161,9 @@ namespace KHAE
 
             }
             //samm3
-            else if (samm == 3)
+            else if (samm == 2)
             {
-                kord++;
-                if (kord >= 4)
-                {
-                    texttik(startLoc.satrtLock_Samm3_V3(lang));
-
-                }
-                else
-                {
-                    
-                    texttik(startLoc.startLoc_Samm_3(lang, 2));
-                }
+                
 
             }
 

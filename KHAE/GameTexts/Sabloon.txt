@@ -2,29 +2,22 @@
         //EST
         string SammV1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\EST\SammV1EST.txt");//
-
         string SammV2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\EST\SammV2EST.txt");//
-
 	string SammV3EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
              File.ReadAllText(@"..\..\GameTexts\EST\SammV3EST.txt");
 
         string btnSammV1EST = "Võtta võtti";
         string btnSammV2EST = "Uuri toas edasi";
 
-
-
         //ENG
 
         string SammV1ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\ENG\SammV1ENG.txt");//
-
         string SammV2ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\ENG\SammV2ENG.txt");//
-
 	string SammV3ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
              File.ReadAllText(@"..\..\GameTexts\ENG\SammV3ENG.txt");
-
 
         string btnSammV1ENG = "";
         string btnSammV2ENG = "";
@@ -32,10 +25,8 @@
 	//RUS
 	string SammV1RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\RUS\SammV1RUS.txt");//i
-
         string SammV2RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
             File.ReadAllText(@"..\..\GameTexts\RUS\SammV2RUS.txt");//
-
 	string SammV3RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
              File.ReadAllText(@"..\..\GameTexts\RUS\SammV3RUS.txt");
 
@@ -46,8 +37,6 @@
 
         public string startLoc_Samm_(string lang, int variant) //story samm2
         {
-
-
             if (variant == 1)
             {
                 if (lang == "EST")
@@ -62,16 +51,13 @@
                 {
                     return SammV1RUS;
                 }
-
                 else return null;
-
             }
             else if (variant == 2)
             {
                 if (lang == "EST")
                 {
                     return SammV2EST;
-
                 }
                 else if (lang == "ENG")
                 {
@@ -82,12 +68,8 @@
                     return SammV2RUS;
                 }
                 else return null;
-
             }
-
             else return null;
-
-
         }
 
       public string startLoc_Samm_V3(string lang)//KORVAL STORY
@@ -105,14 +87,11 @@
                 return SammV3RUS;
             }
             else return null;
-
         }
-
 
         //nuppu teksti muutmine
         public string btnSamm(string lang, int variant) //nuppud samm2
         {
-
             if (variant == 1)
             {
                 if (lang == "EST")
@@ -127,9 +106,7 @@
                 {
                     return btnSammV1RUS;
                 }
-
                 else return null;
-
             }
             else if (variant == 2)
             {
@@ -146,9 +123,6 @@
                     return btnSammV2RUS;
                 }
                 else return null;
-
             }
-
             else return null;
-
         }
