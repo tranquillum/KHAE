@@ -57,6 +57,7 @@ namespace KHAE
         //Button 1
         private void button1_Click(object sender, EventArgs e)
         {
+            
             //samm0
             if (samm == 0)//start lock
              //samm1
@@ -94,7 +95,7 @@ namespace KHAE
                 v1.Text = startLoc.btnSamm3(lang, 1);
                 v2.Text = startLoc.btnSamm3(lang, 2);
                 mianpic.Image = kapppic.Image;
-                samm = 3;
+                samm = 4;
             }
 
 
@@ -118,13 +119,13 @@ namespace KHAE
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
         {
             //samm1
-            if (samm==0)//start lock
+            if (samm==0|| samm == 1)//start lock
             {
                 kord++;
 
                 
                 
-                if (kord ==2)
+                if (kord >=3)
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
@@ -141,7 +142,7 @@ namespace KHAE
                 }
             }
             //samm2
-            else if (samm ==1)
+            else if (samm ==2)
             {
                 kord++;
                 if (kord >= 4)
@@ -161,9 +162,13 @@ namespace KHAE
 
             }
             //samm3
-            else if (samm == 2)
+            else if (samm == 3)
             {
                 
+
+
+
+
 
             }
 
@@ -249,7 +254,7 @@ namespace KHAE
                 alusta.Text = settings.resbtn(lang);
                 v1.Text = startText.btnSamm0(lang, 1);
                 v2.Text = startText.btnSamm0(lang, 2);
-                samm = 1;
+                samm = 0;
             }
 
             else
