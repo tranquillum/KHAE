@@ -14,85 +14,103 @@ namespace KHAE
     
     class StartLoc
     {
-        //Samm 1
+        //--------------------------Samm 1------------------
         //EST
         
-        string Samm1V1EST = Environment.NewLine + Environment.NewLine+ Environment.NewLine+
-            "*Sa avad silmad*" + Environment.NewLine+ 
-            "*Sa oled ruumis kus seinad on  mustad ning imevad kõik valguse endasse*" + Environment.NewLine+
-            "*Näeb välja, et sa oled kuskil keldris*" + Environment.NewLine +
-            "*Seinal vilgub tõrvik illumineerib natuke ruumist*" + Environment.NewLine +
-            "*Ruumi paremas nurgas vedeleb kapp vastu seina*" + Environment.NewLine +
-           "*Vasakul kapist on trellidest uks*" + Environment.NewLine +
-            "*Sa vaatad ümberringi, veidi segaduses leides mitte kedagi*" + Environment.NewLine +
-            "*Sinu kõrval on kivid ning laes on auk, arvata võib, et nad kukkusid sealt*" + Environment.NewLine + Environment.NewLine+
-            "Kus ma olen?..Mis juhtus.?"
-            ;
-
-
-
+        string Samm1V1EST = Environment.NewLine + Environment.NewLine+ Environment.NewLine+ 
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm1V1EST.txt"); //Ava silmad
         string Samm1V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
-            "*Sa lamad edasi*" + Environment.NewLine +
-            "*Püsti tõustes sa lööd oma pea ära*" + Environment.NewLine +
-            "* Su peavalu suureneb*" + Environment.NewLine +
-        "!#!#Ehkki oleks targem sul silmad avada?" + Environment.NewLine +
-        "*Sa kuuled häält nagu oleks keegi su kõrval*" + Environment.NewLine +
-        "*Kõik on pime*" + Environment.NewLine ;
-
-
-
-        string Samm1V3Est = "!!!!Kirjuta texti!!!!!";
+             File.ReadAllText(@"..\..\GameTexts\EST\Samm1V2EST.txt"); //lama edasi
+        string Samm1V3EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\EST\Samm1V2EST.txt");
 
         string btnSamm1V1EST = "Tõuse Püsti";
         string btnSamm1V2EST = "Lama Edasi";
 
-
         //ENG
 
+        string Samm1V1ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm1V1ENG.txt"); 
+        string Samm1V2ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\ENG\Samm1V2ENG.txt");
+        string Samm1V3ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\ENG\Samm1V3ENG.txt");
 
+        string btnSamm1V1ENG = "";
+        string btnSamm1V2ENG = "";
+
+        //RUS 
+
+        string Samm1V1RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+        File.ReadAllText(@"..\..\GameTexts\RUS\Samm1V1RUS.txt");
+        string Samm1V2RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\RUS\Samm1V2RUS.txt");
+        string Samm1V3RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\RUS\Samm1V3RUS.txt");
+
+        string btnSamm1V1RUS = "";
+        string btnSamm1V2RUS = "";
 
         //Funktsionid
 
-
-
-
-
-
-
-        public  string startLoc_Samm_1(string lang, int variant)
+        public  string startLoc_Samm_1(string lang, int variant)//story samm1
         {
-            
-            if (lang == "EST" && variant == 1)
+            if(variant == 1)
             {
-                return Samm1V1EST;
-
+                if (lang == "EST")
+                {
+                    return Samm1V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return Samm1V1ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return Samm1V1RUS;
+                }
+                else return null;
             }
-            
-
-            if (lang == "EST" && variant == 2)
+            else if (variant == 2)
             {
-                return Samm1V2EST;
-
+                if (lang == "EST")
+                {
+                    return Samm1V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return Samm1V2ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return Samm1V2RUS;
+                }
+                else return null;
             }
-            else return null;
-           
+            else return null;              
         }
-        public string startLoc_Surm(string lang)
+
+        public string startLoc_Samm1_V3(string lang)//KORVAL STORY
         {
             if (lang == "EST")
             {
-                return Samm1V3Est;
-
+                return Samm1V3EST;
+            }
+            else if (lang == "ENG")
+            {
+                return Samm1V3ENG;
+            }
+            else if (lang == "RUS")
+            {
+                return Samm1V3RUS;
             }
             else return null;
-
         }
         //nuppu teksti muutmine
 
-        public string btnSamm1(string lang, int versioon) //nuppu 1 uus tekst
+        public string btnSamm1(string lang, int variant) //nuppud samm1
         {
-
-            if (versioon == 1)
+            if (variant == 1)
             {
                 if (lang == "EST")
                 {
@@ -100,17 +118,15 @@ namespace KHAE
                 }
                 else if (lang == "ENG")
                 {
-                    return null;
+                    return btnSamm1V1ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return null;
+                    return btnSamm1V1RUS;
                 }
-
                 else return null;
-
             }
-            else if (versioon == 2)
+            else if (variant == 2)
             {
                 if (lang == "EST")
                 {
@@ -118,6 +134,65 @@ namespace KHAE
                 }
                 else if (lang == "ENG")
                 {
+                    return btnSamm1V2ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return btnSamm1V2RUS;
+                }
+                else return null;
+            }
+            else return null;
+        }
+
+            
+        //-------------------------------Samm 2--------------------------------------------------
+
+        //EST
+        string Samm2V1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm2V1EST.txt");//Touse pusti
+        string Samm2V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm2V2EST.txt");//lama edasi
+        string Samm2V3EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\EST\Samm2V3EST.txt");
+
+        string btnSamm2V1EST = "Uuri nurgas olevat kappi";
+        string btnSamm2V2EST = "Proovi ust lahti teha";
+
+        //ENG
+        string Samm2V1ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm2V1ENG.txt");//
+        string Samm2V2ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm2V2ENG.txt");//
+        string Samm2V3ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+                 File.ReadAllText(@"..\..\GameTexts\ENG\Samm2V3ENG.txt");
+
+        string btnSamm2V1ENG = "";
+        string btnSamm2V2ENG = "";
+
+        //RUS
+        string Samm2V1RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\RUS\Samm2V1RUS.txt");//
+        string Samm2V2RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\RUS\Samm2V2RUS.txt");//
+        string Samm2V3RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+                 File.ReadAllText(@"..\..\GameTexts\RUS\Samm2V3RUS.txt");
+
+        string btnSamm2V1RUS = "";
+        string btnSamm2V2RUS = "";
+
+        //Funktsionid
+
+        public string startLoc_Samm_2(string lang, int variant) //story samm2
+        {
+            if (variant == 1)
+            {
+                if (lang == "EST")
+                {
+                    return Samm2V1EST;
+                }
+                else if (lang == "ENG")
+                {
                     return null;
                 }
                 else if (lang == "RUS")
@@ -125,72 +200,47 @@ namespace KHAE
                     return null;
                 }
                 else return null;
-
             }
-
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                  return Samm2V2EST;            
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
+            }
             else return null;
-
         }
 
-       
-
-        
-
-
-        //Samm 2
-
-        //EST
-        string Samm2V1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
-            "*Sa tõused, kloppides oma riideid tolmust*" + Environment.NewLine +
-            "* Sa uurid toas veidi segaduses olles ringi*" + Environment.NewLine +
-            "..Kuidas ma siia sain" + Environment.NewLine +
-            "*Tugev pea valu lööb sulle pähe*" + Environment.NewLine +
-            "*Mingi hääl hakkab rääkima*" + Environment.NewLine +
-           "!#!@%:..Aeg ütleb.." + Environment.NewLine +
-            "*Sa vaatad segaduses ringi, leides mitte kedagi*" + Environment.NewLine +
-            "..Mul on vaja siit ära saada" + Environment.NewLine 
-            ;
-
-        string Samm2V2EST = Environment.NewLine + File.ReadAllText(@"..\..\GameTexts\StartLoc.txt", System.Text.Encoding.UTF8);
-
-
-        string btnSamm2V1EST = "Uuri nurgas olevat kappi";
-        string btnSamm2V2EST = "Proovi ust lahti teha";
-
-
-
-
-
-        //ENG
-
-
-
-        //Funktsionid
-
-        public string startLoc_Samm_2(string lang, int variant)
+        public string startLoc_Samm_2_V3(string lang)//KORVAL STORY
         {
-
-            if (lang == "EST" && variant == 1)
+            if (lang == "EST")
             {
-                return Samm2V1EST;
-
+                return Samm2V3EST;
             }
-
-
-            if (lang == "EST" && variant == 2)
+            else if (lang == "ENG")
             {
-                return Samm2V2EST;
-
+                return Samm2V3ENG;
+            }
+            else if (lang == "RUS")
+            {
+                return Samm2V3RUS;
             }
             else return null;
-
         }
 
         //nuppu teksti muutmine
-        public string btnSamm2(string lang, int versioon) //nuppu 1 uus tekst
+        public string btnSamm2(string lang, int variant) //nuppud samm2
         {
-
-            if (versioon == 1)
+            if (variant == 1)
             {
                 if (lang == "EST")
                 {
@@ -198,17 +248,15 @@ namespace KHAE
                 }
                 else if (lang == "ENG")
                 {
-                    return null;
+                    return btnSamm2V1ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return null;
+                    return btnSamm2V1RUS;
                 }
-
                 else return null;
-
             }
-            else if (versioon == 2)
+            else if (variant == 2)
             {
                 if (lang == "EST")
                 {
@@ -216,19 +264,147 @@ namespace KHAE
                 }
                 else if (lang == "ENG")
                 {
-                    return null;
+                    return btnSamm2V2ENG;
                 }
                 else if (lang == "RUS")
                 {
-                    return null;
+                    return btnSamm2V2RUS;
                 }
                 else return null;
-
             }
-
             else return null;
-
         }
+
+        //----------------SAMM3-------------------------
+        //EST
+        string Samm3V1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm3V1EST.txt");//
+        string Samm3V2EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\EST\Samm3V2EST.txt");//
+        string Samm3V3EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+             File.ReadAllText(@"..\..\GameTexts\EST\Samm3V3EST.txt");
+
+        string btnSamm3V1EST = "Võtta võtti";
+        string btnSamm3V2EST = "Uuri toas edasi";
+
+        //ENG
+        string Samm3V1ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm3V1ENG.txt");//Uuri nurgas olevat kappi
+        string Samm3V2ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm3V2ENG.txt");//proovi uks
+        string Samm3V3ENG = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\ENG\Samm3V3ENG.txt");
+
+        string btnSamm3V1ENG = "";
+        string btnSamm3V2ENG = "";
+
+        //RUS
+        string Samm3V1RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\RUS\Samm3V1RUS.txt");//
+        string Samm3V2RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+            File.ReadAllText(@"..\..\GameTexts\RUS\Samm3V2RUS.txt");//
+        string Samm3V3RUS = Environment.NewLine + Environment.NewLine + Environment.NewLine +
+                 File.ReadAllText(@"..\..\GameTexts\RUS\Samm3V3RUS.txt");
+
+        string btnSamm3V1RUS = "";
+        string btnSamm3V2RUS = "";
+        //Funktsionid
+
+        public string startLoc_Samm_3(string lang, int variant) //story samm3
+        {
+            if (variant == 1)
+            {
+                if (lang == "EST")
+                {
+                    return Samm3V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return Samm3V1ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return Samm3V1RUS;
+                }
+
+                else return null;
+            }
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                    return Samm3V2EST;
+
+                }
+                else if (lang == "ENG")
+                {
+                    return Samm3V2ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return Samm3V2RUS;
+                }
+                else return null;
+            }
+            else return null;
+        }
+
+        public string startLock_Samm3_V3(string lang)
+        {
+            if (lang == "EST")
+            {
+                return Samm3V3EST;
+            }
+            else if (lang == "ENG")
+            {
+                return Samm3V3ENG;
+            }
+            else if (lang == "RUS")
+            {
+                return Samm3V3RUS;
+            }
+            else return null;
+        }
+
+        //nuppu teksti muutmine
+        public string btnSamm3(string lang, int variant) //nuppud samm3
+        {
+            if (variant == 1)
+            {
+                if (lang == "EST")
+                {
+                    return btnSamm3V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return btnSamm3V1ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return btnSamm3V1RUS;
+                }
+                else return null;
+            }
+            else if (variant == 2)
+            {
+                if (lang == "EST")
+                {
+                    return btnSamm3V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return btnSamm3V2ENG;
+                }
+                else if (lang == "RUS")
+                {
+                    return btnSamm3V2RUS;
+                }
+                else return null;
+            }
+            else return null;
+        }
+
+
 
 
 
