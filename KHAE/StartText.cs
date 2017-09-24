@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace KHAE
 {
@@ -10,49 +11,58 @@ namespace KHAE
     {
         //Samm 0
         //EST
-        string sammSamm0V1EST = "*Aeg, see on imelik asi, kas ole? Seda ei ole võimalik tunda, seda ei ole võimalik katsuda..Kui sul poleks kella ei teaks, et ta eksisteeriks kuid ta juhib meid*"+ Environment.NewLine + "Mis ma teen edasi?" + Environment.NewLine;
-        string btnV1EST = "Tõuse püsti";
-        string btnV2EST = "Istu edasi voodis";
+        string Samm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt");
+        
+        string btnSamm0V1EST = "Ava Silmad";
+        string btnSamm0V2EST = "Lama Edasi";
 
         public string startText_Samm_0(string lang)
         {
-
             if (lang == "EST")
             {
-                return sammSamm0V1EST;
-
-            }
-            
+                return Samm0V1EST;
+            }          
             else return null;
-
         }
 
-
-        public string bteV1(string lang) //nuppu 1 uus tekst
-        {
-
-            if (lang == "EST")
+        public string btnSamm0(string lang, int variant) 
+        {        
+            if (variant == 1)
             {
-                return btnV1EST;
-
+                if (lang == "EST")
+                {
+                    return btnSamm0V1EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
             }
-
-            else return null;
-
-        }
-
-        public string bteV2(string lang) //nuppe 2 tekst
-        {
-
-            if (lang == "EST")
+            else if (variant == 2)
             {
-                return btnV2EST;
-
+                if (lang == "EST")
+                {
+                    return btnSamm0V2EST;
+                }
+                else if (lang == "ENG")
+                {
+                    return null;
+                }
+                else if (lang == "RUS")
+                {
+                    return null;
+                }
+                else return null;
             }
-
             else return null;
-
         }
+
+       
 
     }
 }
