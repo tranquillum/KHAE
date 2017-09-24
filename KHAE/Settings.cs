@@ -15,9 +15,9 @@ namespace KHAE
 
 
 
-        public string startbtn(string lang)
+        public string startbtn(int lang)
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return starbtnEST;
             }
@@ -26,9 +26,9 @@ namespace KHAE
             else return null;
         }
 
-        public string resbtn(string lang)
+        public string resbtn(int lang)
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return restartbtnEST;
             }

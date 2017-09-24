@@ -17,8 +17,8 @@ namespace KHAE
         //EST
         string Samm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt");
         //string[] EST = { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") };
-        
 
+        string[,] btnSamm0 = new string[,] { { "Ava Silmad", "Lama Edasi" },{"","" },{"","" } };
 
 
 
@@ -29,28 +29,28 @@ namespace KHAE
         
 
 
-        public string startText_Samm_0(string lang)
+        public string startText_Samm_0(int lang)
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return Samm0[0,0];
             }          
             else return null;
         }
 
-        public string btnSamm0(string lang, int variant) 
+        public string btnSamm0(int lang, int variant) 
         {        
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm0V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return null;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return null;
                 }
@@ -58,15 +58,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm0V2EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return null;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return null;
                 }

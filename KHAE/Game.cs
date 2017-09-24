@@ -22,7 +22,7 @@ namespace KHAE
 
         //Muutujad
         double samm = 0;
-        string lang = "";
+        int lang ;// EST = 0, ENG = 1, RUS = 2
         double kord = 0;
         string texttick = "";
         int i = 0;
@@ -46,7 +46,7 @@ namespace KHAE
                 this.Close();
             }
             //this.WindowState = FormWindowState.Maximized;
-            alusta.Text = settings.startbtn(lang);
+            //alusta.Text = settings.startbtn(lang);
             this.Text = "Game " + lang;
             
 

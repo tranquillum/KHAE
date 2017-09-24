@@ -56,19 +56,19 @@ namespace KHAE
 
         //Funktsionid
 
-        public  string startLoc_Samm_1(string lang, int variant)//story samm1
+        public  string startLoc_Samm_1(int lang, int variant)//story samm1
         {
             if(variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return Samm1V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return Samm1V1ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return Samm1V1RUS;
                 }
@@ -76,15 +76,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return Samm1V2EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return Samm1V2ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return Samm1V2RUS;
                 }
@@ -93,17 +93,17 @@ namespace KHAE
             else return null;              
         }
 
-        public string startLoc_Samm1_V3(string lang)//KORVAL STORY
+        public string startLoc_Samm1_V3(int lang)//KORVAL STORY
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return Samm1V3EST;
             }
-            else if (lang == "ENG")
+            else if (lang == 1)
             {
                 return Samm1V3ENG;
             }
-            else if (lang == "RUS")
+            else if (lang == 2)
             {
                 return Samm1V3RUS;
             }
@@ -111,19 +111,19 @@ namespace KHAE
         }
         //nuppu teksti muutmine
 
-        public string btnSamm1(string lang, int variant) //nuppud samm1
+        public string btnSamm1(int lang, int variant) //nuppud samm1
         {
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm1V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm1V1ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm1V1RUS;
                 }
@@ -131,15 +131,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm1V2EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm1V2ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm1V2RUS;
                 }
@@ -186,19 +186,19 @@ namespace KHAE
 
         //Funktsionid
 
-        public string startLoc_Samm_2(string lang, int variant) //story samm2
+        public string startLoc_Samm_2(int lang, int variant) //story samm2
         {
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return Samm2V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return null;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return null;
                 }
@@ -206,15 +206,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                   return Samm2V2EST;            
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return null;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return null;
                 }
@@ -223,17 +223,17 @@ namespace KHAE
             else return null;
         }
 
-        public string startLoc_Samm_2_V3(string lang)//KORVAL STORY
+        public string startLoc_Samm_2_V3(int lang)//KORVAL STORY
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return Samm2V3EST;
             }
-            else if (lang == "ENG")
+            else if (lang == 1)
             {
                 return Samm2V3ENG;
             }
-            else if (lang == "RUS")
+            else if (lang == 2)
             {
                 return Samm2V3RUS;
             }
@@ -241,19 +241,19 @@ namespace KHAE
         }
 
         //nuppu teksti muutmine
-        public string btnSamm2(string lang, int variant) //nuppud samm2
+        public string btnSamm2(int lang, int variant) //nuppud samm2
         {
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm2V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm2V1ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm2V1RUS;
                 }
@@ -261,15 +261,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm2V2EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm2V2ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm2V2RUS;
                 }
@@ -313,19 +313,19 @@ namespace KHAE
         string btnSamm3V2RUS = "";
         //Funktsionid
 
-        public string startLoc_Samm_3(string lang, int variant) //story samm3
+        public string startLoc_Samm_3(int lang, int variant) //story samm3
         {
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return Samm3V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return Samm3V1ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return Samm3V1RUS;
                 }
@@ -334,16 +334,16 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return Samm3V2EST;
 
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return Samm3V2ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return Samm3V2RUS;
                 }
@@ -352,17 +352,17 @@ namespace KHAE
             else return null;
         }
 
-        public string startLock_Samm3_V3(string lang)
+        public string startLock_Samm3_V3(int lang)
         {
-            if (lang == "EST")
+            if (lang == 0)
             {
                 return Samm3V3EST;
             }
-            else if (lang == "ENG")
+            else if (lang == 1)
             {
                 return Samm3V3ENG;
             }
-            else if (lang == "RUS")
+            else if (lang == 2)
             {
                 return Samm3V3RUS;
             }
@@ -370,19 +370,19 @@ namespace KHAE
         }
 
         //nuppu teksti muutmine
-        public string btnSamm3(string lang, int variant) //nuppud samm3
+        public string btnSamm3(int lang, int variant) //nuppud samm3
         {
             if (variant == 1)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm3V1EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm3V1ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm3V1RUS;
                 }
@@ -390,15 +390,15 @@ namespace KHAE
             }
             else if (variant == 2)
             {
-                if (lang == "EST")
+                if (lang == 0)
                 {
                     return btnSamm3V2EST;
                 }
-                else if (lang == "ENG")
+                else if (lang == 1)
                 {
                     return btnSamm3V2ENG;
                 }
-                else if (lang == "RUS")
+                else if (lang == 2)
                 {
                     return btnSamm3V2RUS;
                 }
