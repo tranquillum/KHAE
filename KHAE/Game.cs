@@ -23,7 +23,7 @@ namespace KHAE
         int lang ;// EST = 0, ENG = 1, RUS = 2
         double kord = 0;
         string texttick = "";
-        int i = 0;
+        int timertick = 0;
 
         public Game()
         {
@@ -43,7 +43,7 @@ namespace KHAE
             {
                 this.Close();
             }
-            //this.WindowState = FormWindowState.Maximized;
+            
             alusta.Text = textAdd.SetBtns(lang, 1);
             this.Text = "Game " + lang;
             
@@ -207,11 +207,12 @@ namespace KHAE
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {         
-            if(i< texttick.Length)
+        {
+            
+            if(timertick < texttick.Length)
             {             
-                Story.Text += texttick[i];
-                i++;
+                Story.Text += texttick[timertick];
+                timertick++;
                 v1.Enabled = false;
                 v2.Enabled = false;
                 alusta.Enabled = false;
@@ -224,7 +225,7 @@ namespace KHAE
             }
             else
             {
-                i = 0;
+                timertick = 0;
                 timer1.Enabled = false;
                 v1.Enabled = true;
                 v2.Enabled = true;
