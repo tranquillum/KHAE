@@ -33,7 +33,7 @@ namespace KHAE
         private void ENG_Click(object sender, EventArgs e)
         {
             lang = 1;
-            if (lang ==0)
+            if (lang ==1)
             {
 
                 this.DialogResult = DialogResult.OK;
@@ -46,7 +46,7 @@ namespace KHAE
         private void RUS_Click(object sender, EventArgs e)
         {
             lang = 2;
-            if (lang ==0 )
+            if (lang ==2 )
             {
 
                 this.DialogResult = DialogResult.OK;

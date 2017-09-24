@@ -14,10 +14,8 @@ namespace KHAE
     public partial class Game : Form
     {
         // Lokatsiooni lisamine
-        LangSat LangSat = new LangSat();
-        Settings settings = new Settings();
-        StartLoc startLoc = new StartLoc();
-        StartText startText = new StartText();
+        LangSat LangSat = new LangSat();             
+        TextAdd textAdd = new TextAdd();
 
 
         //Muutujad
@@ -46,28 +44,27 @@ namespace KHAE
                 this.Close();
             }
             //this.WindowState = FormWindowState.Maximized;
-            //alusta.Text = settings.startbtn(lang);
+            alusta.Text = textAdd.SetBtns(lang, 1);
             this.Text = "Game " + lang;
             
 
             
         }
 
-        
+                 
+  
         //Button 1
         private void button1_Click(object sender, EventArgs e)
         {
             
-            //samm0
+           //Samm1
             if (samm == 0)//start lock
-             //samm1
-
             {
-                texttik(startLoc.startLoc_Samm_1(lang, 1));
-                
+                texttik(textAdd.GameTextAdd(lang, 1, 1));
+
                 kord = 0;
-                v1.Text = startLoc.startLoc_btnSamm_1(lang, 1);
-                v2.Text = startLoc.startLoc_btnSamm_1(lang, 2);
+                v1.Text = textAdd.BtnTextAdd(lang, 1, 1);
+                v2.Text = textAdd.BtnTextAdd(lang, 1, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 1;
                 
@@ -77,11 +74,11 @@ namespace KHAE
 
 
             {
-                texttik(startLoc.startLoc_Samm_2(lang, 1));
-                
+                texttik(textAdd.GameTextAdd(lang, 2, 1));
+
                 kord = 0;
-                v1.Text = startLoc.startLoc_btnSamm_2(lang, 1);
-                v2.Text = startLoc.startLoc_btnSamm_2(lang, 2);
+                v1.Text = textAdd.BtnTextAdd(lang, 2, 1);
+                v2.Text = textAdd.BtnTextAdd(lang, 2, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 2;
                 
@@ -89,11 +86,11 @@ namespace KHAE
             //samm3
             else if (samm == 2)
             {
-                texttik(startLoc.startLoc_Samm_3(lang, 1));
+                texttik(textAdd.GameTextAdd(lang, 3, 1));
 
                 kord = 0;
-                v1.Text = startLoc.startLoc_btnSamm_3(lang, 1);
-                v2.Text = startLoc.startLoc_btnSamm_3(lang, 2);
+                v1.Text = textAdd.BtnTextAdd(lang, 3, 1);
+                v2.Text = textAdd.BtnTextAdd(lang, 3, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 4;
             }
@@ -113,7 +110,7 @@ namespace KHAE
             }
         }
 
-
+        
 
         //Button 2
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
@@ -129,14 +126,15 @@ namespace KHAE
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
-                    texttik(startLoc.startLoc_Samm_1(lang, 3));
+                    texttik(textAdd.GameTextAdd(lang, 1, 3));
+                    
                     v1.Visible = false;
                     v2.Visible = false;
                     kord = 0;
                 }
                 else
                 {
-                    texttik(startLoc.startLoc_Samm_1(lang, 2));
+                    texttik(textAdd.GameTextAdd(lang, 1, 2));
 
 
                 }
@@ -147,13 +145,13 @@ namespace KHAE
                 kord++;
                 if (kord >= 4)
                 {
-                    texttik(startLoc.startLoc_Samm_2(lang, 3));
+                    texttik(textAdd.GameTextAdd(lang, 2, 3));
 
                 }
                 else
                 {
 
-                    texttik(startLoc.startLoc_Samm_2(lang, 2));
+                    texttik(textAdd.GameTextAdd(lang, 2, 2));
                 }
 
 
@@ -246,21 +244,21 @@ namespace KHAE
 
         private void alusta_Click_1(object sender, EventArgs e)
         {
-            if (alusta.Text == settings.startbtn(lang)) //samm 0 start text
+            if (alusta.Text == textAdd.SetBtns(lang, 1)) //samm 0 start text
             {
-                texttik(startText.startText_Samm_0(lang,0,1));
+                texttik(textAdd.GameTextAdd(lang,0,1));
 
 
-                alusta.Text = settings.resbtn(lang);
-                v1.Text = startText.btnSamm0(lang, 0,1);
-                v2.Text = startText.btnSamm0(lang, 0,2);
+                alusta.Text = textAdd.SetBtns(lang, 2);
+                v1.Text = textAdd.BtnTextAdd(lang, 0,1);
+                v2.Text = textAdd.BtnTextAdd(lang, 0,2);
                 samm = 0;
             }
 
             else
             {
                 Story.Text = "";
-                alusta.Text = settings.startbtn(lang);
+                alusta.Text = textAdd.SetBtns(lang,1);
                 samm = 0;
                 v1.Text = "";
                 v2.Text = "";
