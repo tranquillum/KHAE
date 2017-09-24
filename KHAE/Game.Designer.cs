@@ -94,7 +94,7 @@
             this.mianpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mianpic.TabIndex = 3;
             this.mianpic.TabStop = false;
-            this.mianpic.Click += new System.EventHandler(this.pictureBox1_Click);
+            
             // 
             // alusta
             // 
