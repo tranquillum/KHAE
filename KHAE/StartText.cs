@@ -10,7 +10,7 @@ namespace KHAE
     class StartText
     {
         //Samm 0
-        string[,] Samm0 = new string[,] { { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") }, { File.ReadAllText(@"..\..\GameTexts\ENG\StartLocENG.txt") } };
+        string[,] Samm0 = new string[,] { { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") }, { File.ReadAllText(@"..\..\GameTexts\ENG\StartLocENG.txt") }, { File.ReadAllText(@"..\..\GameTexts\ENG\StartLocENG.txt")} };
         
 
 
@@ -18,15 +18,9 @@ namespace KHAE
         string Samm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt");
         //string[] EST = { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") };
 
-        string[,] btnSamm0 = new string[,] { { "Ava Silmad", "Lama Edasi" },{"","" },{"","" } };
+        string[,] btnsSamm0 = new string[,] { { "Ava Silmad", "Lama Edasi" },{"","" },{"","" } };
 
 
-
-
-        string btnSamm0V1EST = "Ava Silmad";
-        string btnSamm0V2EST = "Lama Edasi";
-
-        
 
 
         public string startText_Samm_0(int lang)
@@ -39,40 +33,8 @@ namespace KHAE
         }
 
         public string btnSamm0(int lang, int variant) 
-        {        
-            if (variant == 1)
-            {
-                if (lang == 0)
-                {
-                    return btnSamm0V1EST;
-                }
-                else if (lang == 1)
-                {
-                    return null;
-                }
-                else if (lang == 2)
-                {
-                    return null;
-                }
-                else return null;
-            }
-            else if (variant == 2)
-            {
-                if (lang == 0)
-                {
-                    return btnSamm0V2EST;
-                }
-                else if (lang == 1)
-                {
-                    return null;
-                }
-                else if (lang == 2)
-                {
-                    return null;
-                }
-                else return null;
-            }
-            else return null;
+        {
+            return btnsSamm0[lang, variant-1];
         }
 
        
