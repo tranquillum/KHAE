@@ -23,6 +23,9 @@ namespace KHAE
              File.ReadAllText(@"..\..\GameTexts\EST\Samm1V2EST.txt"); //lama edasi
         string Samm1V3EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
              File.ReadAllText(@"..\..\GameTexts\EST\Samm1V2EST.txt");
+        string[] Samm1V1;
+        
+
 
         string btnSamm1V1EST = "Tõuse Püsti";
         string btnSamm1V2EST = "Lama Edasi";
