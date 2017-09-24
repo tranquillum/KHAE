@@ -66,8 +66,8 @@ namespace KHAE
                 texttik(startLoc.startLoc_Samm_1(lang, 1));
                 
                 kord = 0;
-                v1.Text = startLoc.btnSamm1(lang, 1);
-                v2.Text = startLoc.btnSamm1(lang, 2);
+                v1.Text = startLoc.startLoc_btnSamm_1(lang, 1);
+                v2.Text = startLoc.startLoc_btnSamm_1(lang, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 1;
                 
@@ -80,8 +80,8 @@ namespace KHAE
                 texttik(startLoc.startLoc_Samm_2(lang, 1));
                 
                 kord = 0;
-                v1.Text = startLoc.btnSamm2(lang,1);
-                v2.Text = startLoc.btnSamm2(lang,2);
+                v1.Text = startLoc.startLoc_btnSamm_2(lang, 1);
+                v2.Text = startLoc.startLoc_btnSamm_2(lang, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 2;
                 
@@ -92,8 +92,8 @@ namespace KHAE
                 texttik(startLoc.startLoc_Samm_3(lang, 1));
 
                 kord = 0;
-                v1.Text = startLoc.btnSamm3(lang, 1);
-                v2.Text = startLoc.btnSamm3(lang, 2);
+                v1.Text = startLoc.startLoc_btnSamm_3(lang, 1);
+                v2.Text = startLoc.startLoc_btnSamm_3(lang, 2);
                 mianpic.Image = kapppic.Image;
                 samm = 4;
             }
@@ -129,7 +129,7 @@ namespace KHAE
                 {
                     Story.Text = "";
                     Story.ForeColor = System.Drawing.Color.Red;
-                    texttik(startLoc.startLoc_Samm1_V3(lang));
+                    texttik(startLoc.startLoc_Samm_1(lang, 3));
                     v1.Visible = false;
                     v2.Visible = false;
                     kord = 0;
@@ -147,7 +147,7 @@ namespace KHAE
                 kord++;
                 if (kord >= 4)
                 {
-                    texttik(startLoc.startLoc_Samm_2_V3(lang));
+                    texttik(startLoc.startLoc_Samm_2(lang, 3));
 
                 }
                 else
@@ -248,12 +248,12 @@ namespace KHAE
         {
             if (alusta.Text == settings.startbtn(lang)) //samm 0 start text
             {
-                texttik(startText.startText_Samm_0(lang));
+                texttik(startText.startText_Samm_0(lang,0,1));
 
 
                 alusta.Text = settings.resbtn(lang);
-                v1.Text = startText.btnSamm0(lang, 1);
-                v2.Text = startText.btnSamm0(lang, 2);
+                v1.Text = startText.btnSamm0(lang, 0,1);
+                v2.Text = startText.btnSamm0(lang, 0,2);
                 samm = 0;
             }
 

@@ -1,3 +1,39 @@
+
+string[,] Samm = new string[3,3]
+        {
+            { File.ReadAllText(@"..\..\GameTexts\EST\SammV1EST.txt"), File.ReadAllText(@"..\..\GameTexts\EST\SammV2EST.txt"), File.ReadAllText(@"..\..\GameTexts\EST\SammV3EST.txt") },
+            { File.ReadAllText(@"..\..\GameTexts\ENG\SammV1ENG.txt"), File.ReadAllText(@"..\..\GameTexts\ENG\SammV2ENG.txt"), File.ReadAllText(@"..\..\GameTexts\ENG\SammV3ENG.txt") },
+            { File.ReadAllText(@"..\..\GameTexts\RUS\SammV1RUS.txt"), File.ReadAllText(@"..\..\GameTexts\RUS\SammV2RUS.txt"), File.ReadAllText(@"..\..\GameTexts\RUS\SammV3RUS.txt") }
+        };
+
+
+        string[,] btnSamm = new string[3, 2]
+        {
+            { "Tõuse Püsti", "Lama Edasi"},
+            { "", "" },
+            { "", "" }
+        };
+
+    
+        //Funktsionid
+
+        public  string startLoc_Samm_(int lang, int variant)//story samm1
+        {
+            return Samm[lang, variant - 1];
+        }
+        //nuppu teksti muutmine
+
+        public string startLoc_btnSamm_(int lang, int variant) //nuppud samm1
+        {
+            return btnSamm[lang, variant - 1];
+        }
+
+
+
+
+
+
+
 //----------------SAMM-------------------------
         //EST
         string SammV1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +

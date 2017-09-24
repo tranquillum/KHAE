@@ -10,31 +10,44 @@ namespace KHAE
     class StartText
     {
         //Samm 0
-        string[,] Samm0 = new string[,] { { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") }, { File.ReadAllText(@"..\..\GameTexts\ENG\StartLocENG.txt") }, { File.ReadAllText(@"..\..\GameTexts\ENG\StartLocENG.txt")} };
-        
+        string[] languages = new string[] { @"..\..\GameTexts\EST\Samm", @"..\..\GameTexts\ENG\Samm", @"..\..\GameTexts\RUS\Samm" };       
+        string ver = "V";
+        string format = ".txt";
+
+        string[] btnLang = { @"..\..\GameTexts\EST\Nuppud\Samm" };
+
+        string[,] Samm0 = new string[,] 
+        { 
+            { File.ReadAllText(@"..\..\GameTexts\EST\Samm0V1.txt") }, 
+            { File.ReadAllText(@"..\..\GameTexts\ENG\Samm0V1.txt") }, 
+            { File.ReadAllText(@"..\..\GameTexts\ENG\Samm0V1.txt") }
+        };
 
 
-        //EST
-        string Samm0V1EST = File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt");
-        //string[] EST = { File.ReadAllText(@"..\..\GameTexts\EST\StartLocEST.txt") };
-
-        string[,] btnsSamm0 = new string[,] { { "Ava Silmad", "Lama Edasi" },{"","" },{"","" } };
-
-
-
-
-        public string startText_Samm_0(int lang)
+        string[,] btnsSamm0 = new string[,] 
         {
-            if (lang == 0)
-            {
-                return Samm0[0,0];
-            }          
-            else return null;
+            { File.ReadAllText(@"..\..\GameTexts\EST\Nuppud\Samm0V1.txt"), File.ReadAllText(@"..\..\GameTexts\EST\Nuppud\Samm0V2.txt")},
+            {"","" },
+            {"","" }
+
+
+
+        };
+
+
+
+
+        public string startText_Samm_0(int lang, int samm, int versioon)
+        {
+            string[] fullPath = { languages[lang]+ samm.ToString()+ ver+ versioon.ToString()+ format}; //..\..\GameTexts\EST\Samm + sammmu number + "V" + variandi number + ".txt"
+            return File.ReadAllText(Path.Combine(fullPath));
+            //return Samm0[0,0];            
         }
 
-        public string btnSamm0(int lang, int variant) 
+        public string btnSamm0(int lang, int samm, int versioon) 
         {
-            return btnsSamm0[lang, variant-1];
+            string[] fullPath = { btnLang[lang] + samm.ToString() + ver + versioon.ToString() + format }; //..\..\GameTexts\EST\Samm + sammmu number + "V" + variandi number + ".txt"
+            return File.ReadAllText(Path.Combine(fullPath));
         }
 
        
