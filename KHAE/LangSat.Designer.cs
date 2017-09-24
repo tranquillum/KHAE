@@ -28,20 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LangSat));
             this.EST = new System.Windows.Forms.Button();
             this.ENG = new System.Windows.Forms.Button();
             this.RUS = new System.Windows.Forms.Button();
-            this.exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // EST
             // 
-            this.EST.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.EST.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EST.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.EST.ForeColor = System.Drawing.Color.White;
-            this.EST.Location = new System.Drawing.Point(36, 117);
+            this.EST.Location = new System.Drawing.Point(42, 75);
             this.EST.Name = "EST";
             this.EST.Size = new System.Drawing.Size(231, 137);
             this.EST.TabIndex = 0;
@@ -51,11 +45,7 @@
             // 
             // ENG
             // 
-            this.ENG.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.ENG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ENG.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.ENG.ForeColor = System.Drawing.Color.White;
-            this.ENG.Location = new System.Drawing.Point(307, 117);
+            this.ENG.Location = new System.Drawing.Point(314, 79);
             this.ENG.Name = "ENG";
             this.ENG.Size = new System.Drawing.Size(220, 132);
             this.ENG.TabIndex = 1;
@@ -65,11 +55,7 @@
             // 
             // RUS
             // 
-            this.RUS.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.RUS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.RUS.ForeColor = System.Drawing.Color.White;
-            this.RUS.Location = new System.Drawing.Point(569, 122);
+            this.RUS.Location = new System.Drawing.Point(580, 80);
             this.RUS.Name = "RUS";
             this.RUS.Size = new System.Drawing.Size(220, 132);
             this.RUS.TabIndex = 2;
@@ -77,28 +63,12 @@
             this.RUS.UseVisualStyleBackColor = true;
             this.RUS.Click += new System.EventHandler(this.RUS_Click);
             // 
-            // exit
-            // 
-            this.exit.BackColor = System.Drawing.Color.Black;
-            this.exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.exit.FlatAppearance.BorderSize = 0;
-            this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exit.Image = ((System.Drawing.Image)(resources.GetObject("exit.Image")));
-            this.exit.Location = new System.Drawing.Point(813, 12);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(29, 30);
-            this.exit.TabIndex = 11;
-            this.exit.UseVisualStyleBackColor = false;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
             // LangSat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(854, 393);
             this.ControlBox = false;
-            this.Controls.Add(this.exit);
             this.Controls.Add(this.RUS);
             this.Controls.Add(this.ENG);
             this.Controls.Add(this.EST);
@@ -116,6 +86,5 @@
         private System.Windows.Forms.Button EST;
         private System.Windows.Forms.Button ENG;
         private System.Windows.Forms.Button RUS;
-        private System.Windows.Forms.Button exit;
     }
 }

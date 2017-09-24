@@ -60,10 +60,5 @@ namespace KHAE
         {
             return lang;
         }
-
-        private void exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

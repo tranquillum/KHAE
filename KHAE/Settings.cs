@@ -9,7 +9,7 @@ namespace KHAE
     class Settings
     {
 
-        //EST start nuppud
+        //EST start nuppus
         string starbtnEST = "Alusta";
         string restartbtnEST = "Uuesti";
 
