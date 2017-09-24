@@ -12,7 +12,7 @@ namespace KHAE
 {
     public partial class LangSat : Form
     {
-        String lang = "";
+        int lang;
         public LangSat()
         {
             InitializeComponent();
@@ -20,8 +20,8 @@ namespace KHAE
 
         private void EST_Click(object sender, EventArgs e)
         {
-            lang = "EST";
-            if (lang !="")
+            lang = 0;
+            if (lang ==0)
             {
 
                 this.DialogResult = DialogResult.OK;
@@ -32,8 +32,8 @@ namespace KHAE
 
         private void ENG_Click(object sender, EventArgs e)
         {
-            lang = "";
-            if (lang != "")
+            lang = 1;
+            if (lang ==1)
             {
 
                 this.DialogResult = DialogResult.OK;
@@ -45,8 +45,8 @@ namespace KHAE
 
         private void RUS_Click(object sender, EventArgs e)
         {
-            lang = "";
-            if (lang != "")
+            lang = 2;
+            if (lang ==2 )
             {
 
                 this.DialogResult = DialogResult.OK;
@@ -56,7 +56,7 @@ namespace KHAE
                 MessageBox.Show("Keel ei ole lisatud", "Viga", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        public string langSat()
+        public int langSat()
         {
             return lang;
         }

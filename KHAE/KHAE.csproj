@@ -68,11 +68,9 @@
     <Compile Include="LangSat.Designer.cs">
       <DependentUpon>LangSat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Settings.cs" />
-    <Compile Include="StartLoc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StartText.cs" />
+    <Compile Include="TextAdd.cs" />
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,3 +1,63 @@
+
+        string[] languages = new string[] { @"..\..\GameTexts\EST\Samm", @"..\..\GameTexts\ENG\Samm", @"..\..\GameTexts\RUS\Samm" };       
+        string ver = "V";
+        string format = ".txt";
+
+        string[] btnLang = { @"..\..\GameTexts\EST\Nuppud\Samm" };
+
+        public string GameTextAdd(int lang, int samm, int versioon)
+        {
+            string[] fullPath = { languages[lang]+ samm.ToString()+ ver+ versioon.ToString()+ format}; //..\..\GameTexts\EST\Samm + sammmu number + "V" + variandi number + ".txt"
+            return File.ReadAllText(Path.Combine(fullPath));
+            //return Samm0[0,0];            
+        }
+
+        public string BtnTextAdd(int lang, int samm, int versioon) 
+        {
+            string[] fullPath = { btnLang[lang] + samm.ToString() + ver + versioon.ToString() + format }; //..\..\GameTexts\EST\Samm + sammmu number + "V" + variandi number + ".txt"
+            return File.ReadAllText(Path.Combine(fullPath));
+        }
+
+
+
+
+
+//-----------SAMM----------
+string[,] Samm = new string[3,3]
+        {
+            { File.ReadAllText(@"..\..\GameTexts\EST\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\EST\SammV2.txt"), File.ReadAllText(@"..\..\GameTexts\EST\SammV3.txt") },
+            { File.ReadAllText(@"..\..\GameTexts\ENG\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\ENG\SammV2.txt"), File.ReadAllText(@"..\..\GameTexts\ENG\SammV3.txt") },
+            { File.ReadAllText(@"..\..\GameTexts\RUS\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\RUS\SammV2.txt"), File.ReadAllText(@"..\..\GameTexts\RUS\SammV3.txt") }
+        };
+
+
+        string[,] btnSamm = new string[3, 3]
+        {
+            { File.ReadAllText(@"..\..\GameTexts\EST\Nuppud\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\EST\Nuppud\SammV2.txt"),File.ReadAllText(@"..\..\GameTexts\EST\Nuppud\SammV3.txt")},
+            { File.ReadAllText(@"..\..\GameTexts\ENG\Nuppud\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\ENG\Nuppud\SammV2.txt"),File.ReadAllText(@"..\..\GameTexts\ENG\Nuppud\SammV3.txt")},
+            { File.ReadAllText(@"..\..\GameTexts\RUS\Nuppud\SammV1.txt"), File.ReadAllText(@"..\..\GameTexts\RUS\Nuppud\SammV2.txt"),File.ReadAllText(@"..\..\GameTexts\RUS\Nuppud\SammV3.txt") }
+        };
+
+    
+        //Funktsionid
+
+        public  string startLoc_Samm_(int lang, int variant)//story samm1
+        {
+            return Samm[lang, variant - 1];
+        }
+        //nuppu teksti muutmine
+
+        public string startLoc_btnSamm_(int lang, int variant) //nuppud samm1
+        {
+            return btnSamm[lang, variant - 1];
+        }
+
+
+
+
+
+
+
 //----------------SAMM-------------------------
         //EST
         string SammV1EST = Environment.NewLine + Environment.NewLine + Environment.NewLine +
