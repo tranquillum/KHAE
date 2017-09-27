@@ -12,6 +12,33 @@ namespace KHAE
 {
     public partial class LangSat : Form
     {
+
+        //Координаты мышки
+        private int x = 0; private int y = 0;
+
+        // Нажатие кнопки мышки
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            x = e.X; y = e.Y;
+        }
+        // Движение мышки
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                this.Location = new System.Drawing.Point(this.Location.X + (e.X - x), this.Location.Y + (e.Y - y));
+
+            }
+        }
+
+
+
+
+
+
+
+
+
         int lang;
         public LangSat()
         {
@@ -64,6 +91,11 @@ namespace KHAE
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void LangSat_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -94,7 +94,6 @@
             this.mianpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mianpic.TabIndex = 3;
             this.mianpic.TabStop = false;
-            
             // 
             // alusta
             // 
@@ -246,7 +245,6 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimizeBox = false;
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);

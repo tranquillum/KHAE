@@ -104,9 +104,9 @@
             this.Controls.Add(this.EST);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "LangSat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.LangSat_Load);
             this.ResumeLayout(false);
 
         }
