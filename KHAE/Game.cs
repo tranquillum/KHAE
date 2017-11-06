@@ -47,7 +47,8 @@ namespace KHAE
             
             alusta.Text = textAdd.SetBtns(lang, 1);
             this.Text = "Game " + lang;
-            
+            v1.Visible = false;
+            v2.Visible = false;
 
             
         }
@@ -231,7 +232,8 @@ namespace KHAE
             if (alusta.Text == textAdd.SetBtns(lang, 1)) //samm 0 start text
             {
                 texttik(textAdd.GameTextAdd(lang,0,1));
-
+                v1.Visible = true;
+                v2.Visible = true;
 
                 alusta.Text = textAdd.SetBtns(lang, 2);
                 v1.Text = textAdd.BtnTextAdd(lang, 0,1);
@@ -246,8 +248,8 @@ namespace KHAE
                 samm = 0;
                 v1.Text = "";
                 v2.Text = "";
-                v1.Visible = true;
-                v2.Visible = true;
+                v1.Visible = false;
+                v2.Visible = false;
                 Story.ForeColor = System.Drawing.Color.Black;
                 mianpic.Image = mainroompic.Image;
             }

@@ -87,7 +87,7 @@
             this.exit.FlatAppearance.BorderSize = 0;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.Image = ((System.Drawing.Image)(resources.GetObject("exit.Image")));
-            this.exit.Location = new System.Drawing.Point(843, 11);
+            this.exit.Location = new System.Drawing.Point(543, 11);
             this.exit.Margin = new System.Windows.Forms.Padding(2);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(22, 24);
@@ -102,7 +102,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(590, 368);
+            this.ClientSize = new System.Drawing.Size(591, 344);
             this.ControlBox = false;
             this.Controls.Add(this.exit);
             this.Controls.Add(this.RUS);
