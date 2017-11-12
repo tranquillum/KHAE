@@ -59,43 +59,44 @@ namespace KHAE
         private void button1_Click(object sender, EventArgs e)
         {
             int variant = 1;
-           //Samm1
-            if (samm == 0)//start lock
+            //Samm1
+            if (samm <= 11)//start lock
             {
-                texttik(textAdd.GameTextAdd(lang, samm, variant));
+            samm++;
+            texttik(textAdd.GameTextAdd(lang, samm, variant));
 
                 kord = 0;
-                v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
-                v2.Text = textAdd.BtnTextAdd(lang, samm +1, variant+1);
+                v1.Text = textAdd.BtnTextAdd(lang, samm  , variant);
+                v2.Text = textAdd.BtnTextAdd(lang, samm , variant+1);
                 mianpic.Image = kapppic.Image;
-                samm++;
+                
                 
             }          
-            else if (samm==1)
-            //sam2
+            //else if (samm==1)
+            ////sam2
 
 
-            {
-                texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
+            //{
+            //    texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
 
-                kord = 0;
-                v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
-                v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
-                mianpic.Image = kapppic.Image;
-                samm++;
+            //    kord = 0;
+            //    v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
+            //    v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
+            //    mianpic.Image = kapppic.Image;
+            //    samm++;
                 
-            }
-            //samm3
-            else if (samm == 2)
-            {
-                texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
+            //}
+            ////samm3
+            //else if (samm == 2)
+            //{
+            //    texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
 
-                kord = 0;
-                v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
-                v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
-                mianpic.Image = kapppic.Image;
-                samm++;
-            }
+            //    kord = 0;
+            //    v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
+            //    v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
+            //    mianpic.Image = kapppic.Image;
+            //    samm++;
+            //}
 
 
 
@@ -119,16 +120,14 @@ namespace KHAE
         {
             int variant =2;
             //samm1
-            if (samm==0|| samm == 1)//start lock
+            if (samm==0)//start lock
             {
                 kord++;
-
-                
-                
-                if (kord >=3)
+ 
+                if (kord >=2)
                 {
                     Story.Text = "";
-                    Story.ForeColor = System.Drawing.Color.Red;
+                    //Story.ForeColor = System.Drawing.Color.Red;
                     texttik(textAdd.GameTextAdd(lang, samm, variant+1));
                     
                     v1.Visible = false;
@@ -138,24 +137,20 @@ namespace KHAE
                 else
                 {
                     texttik(textAdd.GameTextAdd(lang, samm, variant));
-
+                    v2.Text = textAdd.BtnTextAdd(lang, samm , variant + 1);
 
                 }
             }
             //samm2
-            else if (samm ==2)
+            else if (samm ==1)
             {
-                kord++;
-                if (kord >= 4)
-                {
-                    texttik(textAdd.GameTextAdd(lang, samm, variant+1));
+                Story.Text = "";
+                //Story.ForeColor = System.Drawing.Color.Red;
+                texttik(textAdd.GameTextAdd(lang, samm, variant ));
 
-                }
-                else
-                {
-
-                    texttik(textAdd.GameTextAdd(lang, samm, variant));
-                }
+                v1.Visible = false;
+                v2.Visible = false;
+                kord = 0;
 
 
 
@@ -163,7 +158,7 @@ namespace KHAE
 
             }
             //samm3
-            else if (samm == 3)
+            else if (samm == 2)
             {
                 
 
