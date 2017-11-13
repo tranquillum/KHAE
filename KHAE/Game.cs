@@ -99,17 +99,17 @@ namespace KHAE
  
                
             }
-            //samm2
-            else if (samm ==1)
+            
+            else if (samm ==1 || samm ==5)
             {
                 Var2End1();
 
             }
-            //samm3
-            else if (samm == 2)
+            
+            else if (samm == 2||samm==3 || samm ==4 || samm ==6 || samm ==11 || samm ==14)
             {
-                
 
+                Var2Inf();
 
 
 
@@ -124,6 +124,14 @@ namespace KHAE
                 Story.SelectionStart = Story.Text.Length;
                 Story.ScrollToCaret();
             }
+
+        }
+
+        public void Var2Inf()
+        {
+            int variant = 2;
+            texttik(textAdd.GameTextAdd(lang, samm, variant));
+            v2.Text = textAdd.BtnTextAdd(lang, samm, variant + 1);
 
         }
 
