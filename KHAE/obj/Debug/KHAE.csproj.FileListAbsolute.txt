@@ -1,12 +1,3 @@
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.exe.config
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.exe
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.pdb
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.Properties.Resources.resources
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.exe
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.pdb
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\bin\Debug\KHAE.exe.config
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\bin\Debug\KHAE.exe
 D:\My Documents\Учеба\C#\KHAE\KHAE\KHAE\bin\Debug\KHAE.pdb
@@ -65,16 +56,6 @@ C:\KHAEteam\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
 C:\KHAEteam\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
 C:\KHAEteam\KHAE\KHAE\obj\Debug\KHAE.exe
 C:\KHAEteam\KHAE\KHAE\obj\Debug\KHAE.pdb
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.Game.resources
-C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.LangSat.resources
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\obj\Debug\KHAE.Game.resources
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\obj\Debug\KHAE.LangSat.resources
@@ -94,3 +75,22 @@ C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\bin\Debug\Xamarin.Forms.C
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\bigsa\OneDrive\GitHub\учеба\C#\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.exe.config
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.exe
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\KHAE.pdb
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\opilane\source\repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.Game.resources
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.LangSat.resources
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.Properties.Resources.resources
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.Cache
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.exe
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.pdb
