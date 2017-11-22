@@ -128,7 +128,7 @@
             this.Story.Name = "Story";
             this.Story.ReadOnly = true;
             this.Story.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Story.Size = new System.Drawing.Size(519, 512);
+            this.Story.Size = new System.Drawing.Size(684, 512);
             this.Story.TabIndex = 5;
             this.Story.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Story.UseWaitCursor = true;
@@ -142,7 +142,7 @@
             this.v2.ForeColor = System.Drawing.Color.Black;
             this.v2.Location = new System.Drawing.Point(371, 631);
             this.v2.Name = "v2";
-            this.v2.Size = new System.Drawing.Size(504, 46);
+            this.v2.Size = new System.Drawing.Size(667, 46);
             this.v2.TabIndex = 2;
             this.v2.UseVisualStyleBackColor = false;
             this.v2.Click += new System.EventHandler(this.button2_Click);
@@ -157,14 +157,14 @@
             this.v1.ForeColor = System.Drawing.Color.Black;
             this.v1.Location = new System.Drawing.Point(371, 573);
             this.v1.Name = "v1";
-            this.v1.Size = new System.Drawing.Size(504, 46);
+            this.v1.Size = new System.Drawing.Size(667, 46);
             this.v1.TabIndex = 1;
             this.v1.UseVisualStyleBackColor = false;
             this.v1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(874, 53);
+            this.panel4.Location = new System.Drawing.Point(1039, 53);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(16, 512);
