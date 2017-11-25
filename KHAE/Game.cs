@@ -25,7 +25,7 @@ namespace KHAE
         double kord = 0;
         string texttick = "";
         int timertick = 0;
-
+        int kang = 0;
         public Game()
         {
             InitializeComponent();
@@ -59,49 +59,37 @@ namespace KHAE
         private void button1_Click(object sender, EventArgs e)
         {
             int variant = 1;
-            //Samm1
-            if (samm <= 11)//start lock
+            if (samm == 7 && kang > 0)
             {
-            samm++;
-            texttik(textAdd.GameTextAdd(lang, samm, variant));
+                samm += 2;
+            }
+            else
+            {
+                samm++;
+            }
+            if (samm == 20)
+            {
+                texttik(textAdd.GameTextAdd(lang, samm, variant));
+                v1.Visible = false;
+                v2.Visible = false;
+            }
+                    
+            else if (samm==12 || samm==10)
+            {
+
+                texttik(textAdd.GameTextAdd(lang, samm, variant));
 
                 kord = 0;
-                v1.Text = textAdd.BtnTextAdd(lang, samm  , variant);
-                v2.Text = textAdd.BtnTextAdd(lang, samm , variant+1);
-                mianpic.Image = kapppic.Image;
-                
-                
-            }          
-            //else if (samm==1)
-            ////sam2
+                v1.Text = textAdd.BtnTextAdd(lang, samm, variant);
 
 
-            //{
-            //    texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
-
-            //    kord = 0;
-            //    v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
-            //    v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
-            //    mianpic.Image = kapppic.Image;
-            //    samm++;
-                
-            //}
-            ////samm3
-            //else if (samm == 2)
-            //{
-            //    texttik(textAdd.GameTextAdd(lang, samm+1 , variant));
-
-            //    kord = 0;
-            //    v1.Text = textAdd.BtnTextAdd(lang, samm+1 , variant);
-            //    v2.Text = textAdd.BtnTextAdd(lang, samm+1 , variant+1);
-            //    mianpic.Image = kapppic.Image;
-            //    samm++;
-            //}
-
-
-
-
-
+                v2.Visible = false;
+            }
+            else
+            {
+                Var1();
+            }
+     
 
 
 
@@ -119,55 +107,31 @@ namespace KHAE
         private void button2_Click(object sender, EventArgs e)//parempoolne nupp x.2
         {
             int variant =2;
-            //samm1
-            if (samm==0)//start lock
+            
+            if (samm==0)
             {
                 kord++;
+                Var2End2();
  
-                if (kord >=2)
-                {
-                    Story.Text = "";
-                    //Story.ForeColor = System.Drawing.Color.Red;
-                    texttik(textAdd.GameTextAdd(lang, samm, variant+1));
-                    
-                    v1.Visible = false;
-                    v2.Visible = false;
-                    kord = 0;
-                }
-                else
-                {
-                    texttik(textAdd.GameTextAdd(lang, samm, variant));
-                    v2.Text = textAdd.BtnTextAdd(lang, samm , variant + 1);
-
-                }
+               
             }
-            //samm2
-            else if (samm ==1)
+            
+            else if (samm ==1 || samm ==5)
             {
-                Story.Text = "";
-                //Story.ForeColor = System.Drawing.Color.Red;
-                texttik(textAdd.GameTextAdd(lang, samm, variant ));
-
-                v1.Visible = false;
-                v2.Visible = false;
-                kord = 0;
-
-
-
-
+                Var2End1();
 
             }
-            //samm3
-            else if (samm == 2)
+            else if (samm == 7)
             {
-                
+                kang++;
+            }
+            else if (samm == 2||samm==3 || samm ==4 || samm ==6 || samm ==7 || samm == 8 || samm ==9 || samm ==11 || samm ==13 || samm ==14 || samm ==15 || samm ==16)
+            {
 
-
-
-
+                Var2Inf();
 
             }
-
+            
 
 
             if (Story.Visible)//hold scroll down
@@ -178,7 +142,65 @@ namespace KHAE
             }
 
         }
+        public void Var1()
+        {
+            int variant = 1;
+            texttik(textAdd.GameTextAdd(lang, samm, variant));
 
+            kord = 0;
+            v1.Text = textAdd.BtnTextAdd(lang, samm, variant);
+            v2.Text = textAdd.BtnTextAdd(lang, samm, variant + 1);
+            mianpic.Image = kapppic.Image;
+
+            v1.Visible = true;
+            v2.Visible = true;
+
+        }
+
+
+        public void Var2Inf()
+        {
+            int variant = 2;
+            texttik(textAdd.GameTextAdd(lang, samm, variant));
+            v2.Text = textAdd.BtnTextAdd(lang, samm, variant + 1);
+
+        }
+
+        public void Var2End1()
+        {
+            int variant = 2;
+
+            Story.Text = "";
+            texttik(textAdd.GameTextAdd(lang, samm, variant));
+
+            v1.Visible = false;
+            v2.Visible = false;
+            kord = 0;
+        }
+
+        public void Var2End2()
+        {
+            int variant = 2;
+
+            if (kord >= 2)
+            {
+                Story.Text = "";
+                texttik(textAdd.GameTextAdd(lang, samm, variant + 1));
+
+                v1.Visible = false;
+                v2.Visible = false;
+                kord = 0;
+            }
+            else
+            {
+                texttik(textAdd.GameTextAdd(lang, samm, variant));
+
+
+            }
+
+
+
+        }
 
         //teksti taimer
         public void texttik(string text)

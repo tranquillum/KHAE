@@ -39,14 +39,10 @@
             this.Story = new System.Windows.Forms.TextBox();
             this.v2 = new System.Windows.Forms.Button();
             this.v1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.Bag1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.kapppic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainroompic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mianpic)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Bag1)).BeginInit();
             this.SuspendLayout();
             // 
             // kapppic
@@ -112,7 +108,7 @@
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.Image = ((System.Drawing.Image)(resources.GetObject("exit.Image")));
             this.exit.Location = new System.Drawing.Point(1096, 11);
-            this.exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.exit.Margin = new System.Windows.Forms.Padding(2);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(30, 32);
             this.exit.TabIndex = 10;
@@ -132,7 +128,7 @@
             this.Story.Name = "Story";
             this.Story.ReadOnly = true;
             this.Story.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Story.Size = new System.Drawing.Size(519, 512);
+            this.Story.Size = new System.Drawing.Size(684, 512);
             this.Story.TabIndex = 5;
             this.Story.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Story.UseWaitCursor = true;
@@ -146,7 +142,7 @@
             this.v2.ForeColor = System.Drawing.Color.Black;
             this.v2.Location = new System.Drawing.Point(371, 631);
             this.v2.Name = "v2";
-            this.v2.Size = new System.Drawing.Size(504, 46);
+            this.v2.Size = new System.Drawing.Size(667, 46);
             this.v2.TabIndex = 2;
             this.v2.UseVisualStyleBackColor = false;
             this.v2.Click += new System.EventHandler(this.button2_Click);
@@ -161,41 +157,15 @@
             this.v1.ForeColor = System.Drawing.Color.Black;
             this.v1.Location = new System.Drawing.Point(371, 573);
             this.v1.Name = "v1";
-            this.v1.Size = new System.Drawing.Size(504, 46);
+            this.v1.Size = new System.Drawing.Size(667, 46);
             this.v1.TabIndex = 1;
             this.v1.UseVisualStyleBackColor = false;
             this.v1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.Bag1);
-            this.panel1.Location = new System.Drawing.Point(896, 325);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 241);
-            this.panel1.TabIndex = 11;
-            // 
-            // Bag1
-            // 
-            this.Bag1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Bag1.Image = ((System.Drawing.Image)(resources.GetObject("Bag1.Image")));
-            this.Bag1.InitialImage = ((System.Drawing.Image)(resources.GetObject("Bag1.InitialImage")));
-            this.Bag1.Location = new System.Drawing.Point(0, 0);
-            this.Bag1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Bag1.Name = "Bag1";
-            this.Bag1.Size = new System.Drawing.Size(112, 121);
-            this.Bag1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Bag1.TabIndex = 12;
-            this.Bag1.TabStop = false;
-            this.Bag1.Visible = false;
-            // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(874, 53);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Location = new System.Drawing.Point(1039, 53);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(16, 512);
             this.panel4.TabIndex = 12;
@@ -210,7 +180,6 @@
             this.ClientSize = new System.Drawing.Size(1142, 687);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.exit);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.v1);
             this.Controls.Add(this.alusta);
             this.Controls.Add(this.v2);
@@ -226,8 +195,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.kapppic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainroompic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mianpic)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Bag1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,8 +210,6 @@
         private System.Windows.Forms.TextBox Story;
         private System.Windows.Forms.Button v2;
         private System.Windows.Forms.Button v1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox Bag1;
         private System.Windows.Forms.Panel panel4;
     }
 }
