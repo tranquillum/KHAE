@@ -17,6 +17,7 @@ namespace KHAE
         // Lokatsiooni lisamine
         LangSat LangSat = new LangSat();             
         TextAdd textAdd = new TextAdd();
+        ImgAdd ImgAdd = new ImgAdd();
 
 
         //Muutujad
@@ -26,6 +27,7 @@ namespace KHAE
         string texttick = "";
         int timertick = 0;
         int kang = 0;
+        string VorP = "";
         public Game()
         {
             InitializeComponent();
@@ -49,6 +51,7 @@ namespace KHAE
             this.Text = "Game " + lang;
             v1.Visible = false;
             v2.Visible = false;
+            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
 
             
         }
@@ -69,7 +72,7 @@ namespace KHAE
             }
             if (samm == 20)
             {
-                texttik(textAdd.GameTextAdd(lang, samm, variant));
+                Samm17andmoer();
                 v1.Visible = false;
                 v2.Visible = false;
             }
@@ -85,14 +88,26 @@ namespace KHAE
 
                 v2.Visible = false;
             }
+            else if (samm == 17)
+            {
+                VorP = "V";
+                Var1();
+
+            }
+            else if (samm > 17)
+            {
+                
+                Samm17andmoer();
+
+            }
             else
             {
                 Var1();
             }
-     
 
 
 
+            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             if (Story.Visible)
             {
                 
@@ -121,9 +136,22 @@ namespace KHAE
                 Var2End1();
 
             }
-            else if (samm == 7)
+            
+            else if (samm == 17)
             {
-                kang++;
+                samm++;
+                VorP = "P";
+                texttik(textAdd.GameTextAdd(lang, samm, variant));
+                v1.Text = textAdd.BtnTextAdd(lang, samm, variant);
+                v2.Text = textAdd.BtnTextAdd(lang, samm, variant + 1);
+                
+
+            }
+            else if (samm > 17)
+            {
+                
+                Back();
+
             }
             else if (samm == 2||samm==3 || samm ==4 || samm ==6 || samm ==7 || samm == 8 || samm ==9 || samm ==11 || samm ==13 || samm ==14 || samm ==15 || samm ==16)
             {
@@ -131,9 +159,9 @@ namespace KHAE
                 Var2Inf();
 
             }
-            
 
 
+            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             if (Story.Visible)//hold scroll down
             {
                 
@@ -156,6 +184,38 @@ namespace KHAE
             v2.Visible = true;
 
         }
+
+        public void Back()
+        {
+            texttik(textAdd.GameTextAdd(lang, samm, 3));
+
+        }
+
+        public void Samm17andmoer()
+        {
+            if (VorP == "V")
+            {
+                texttik(textAdd.GameTextAdd(lang, samm, 1));
+                if (samm < 20)
+                {
+                    v1.Text = textAdd.BtnTextAdd(lang, samm, 1);
+                    v2.Text = textAdd.BtnTextAdd(lang, samm, 3);
+                }
+
+            }
+            else if (VorP == "P")
+            {
+                texttik(textAdd.GameTextAdd(lang, samm, 2));
+                if (samm < 20)
+                {
+                    v1.Text = textAdd.BtnTextAdd(lang, samm, 2);
+                    v2.Text = textAdd.BtnTextAdd(lang, samm, 3);
+                }
+
+            }
+
+        }
+
 
 
         public void Var2Inf()

@@ -62,6 +62,7 @@
     <Compile Include="Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="ImgAdd.cs" />
     <Compile Include="LangSat.cs">
       <SubType>Form</SubType>
     </Compile>
