@@ -28,11 +28,11 @@ namespace KHAE
 
 
         //Samm 0
-        string[] languages = new string[] { @"..\..\GameTexts\EST\Samm", @"..\..\GameTexts\ENG\Samm", @"..\..\GameTexts\RUS\Samm" };       
+        string[] languages = new string[] { @"GameTexts\EST\Samm", @"GameTexts\ENG\Samm", @"GameTexts\RUS\Samm" };       
         string ver = "V";
         string format = ".txt";
 
-        string[] btnLang = { @"..\..\GameTexts\EST\Nuppud\Samm", @"..\..\GameTexts\ENG\Nuppud\Samm", @"..\..\GameTexts\RUS\Nuppud\Samm" };
+        string[] btnLang = { @"GameTexts\EST\Nuppud\Samm", @"GameTexts\ENG\Nuppud\Samm", @"GameTexts\RUS\Nuppud\Samm" };
 
         public string GameTextAdd(int lang, int samm, int versioon)
         {

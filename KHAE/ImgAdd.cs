@@ -9,7 +9,7 @@ namespace KHAE
 {
     class ImgAdd
     {
-        string path = @"..\..\GameImg\InGameImgs\";
+        string path = @"GameImg\InGameImgs\";
 
         public string GameImgAdd (int samm)
         {

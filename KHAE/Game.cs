@@ -265,9 +265,9 @@ namespace KHAE
         //teksti taimer
         public void texttik(string text)
         {
-            Story.Text += text;
-            //timer1.Enabled = true;
-            //texttick = text;
+            //Story.Text += text;
+            timer1.Enabled = true;
+            texttick = text;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -328,7 +328,7 @@ namespace KHAE
                 v1.Visible = false;
                 v2.Visible = false;
                 Story.ForeColor = System.Drawing.Color.Black;
-                mianpic.Image = mainroompic.Image;
+                mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             }
         }
 
