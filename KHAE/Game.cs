@@ -51,7 +51,7 @@ namespace KHAE
             this.Text = "Game " + lang;
             v1.Visible = false;
             v2.Visible = false;
-            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
+            //mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
 
             
         }
@@ -107,7 +107,7 @@ namespace KHAE
 
 
 
-            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
+            //mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             if (Story.Visible)
             {
                 
@@ -161,7 +161,7 @@ namespace KHAE
             }
 
 
-            mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
+            //mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             if (Story.Visible)//hold scroll down
             {
                 
@@ -178,7 +178,7 @@ namespace KHAE
             kord = 0;
             v1.Text = textAdd.BtnTextAdd(lang, samm, variant);
             v2.Text = textAdd.BtnTextAdd(lang, samm, variant + 1);
-            mianpic.Image = kapppic.Image;
+            //mianpic.Image = kapppic.Image;
 
             v1.Visible = true;
             v2.Visible = true;
@@ -328,7 +328,7 @@ namespace KHAE
                 v1.Visible = false;
                 v2.Visible = false;
                 Story.ForeColor = System.Drawing.Color.Black;
-                mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
+                //mianpic.Image = Image.FromFile(ImgAdd.GameImgAdd(samm));
             }
         }
 
