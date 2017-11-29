@@ -27,7 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0118B67A91D84437A8B1733635DD8FD7"
+        "MsmKey" = "8:_01381A20E041423BAB010EBC2B6A428F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,18 +51,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_03222F11541D4FB4BDD9DF312191E37E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_03373CDF131D4F4F9005BD505D8E0A00"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_038712761C9C46F686FF6B19F68D4853"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -70,12 +58,6 @@
         "Entry"
         {
         "MsmKey" = "8:_04770014C1FB43F98681AD5C716F7417"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_049ACE07FA1B443395F2947F35724FF9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -99,12 +81,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0566684DA2EE4844A26BAA465E857D9C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_057189AE5A76432FAE7224312902E896"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -112,12 +88,6 @@
         "Entry"
         {
         "MsmKey" = "8:_063D08F271934F0186BF946C4B1EC2FC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0675B4A32029442AA29C682EE0CAA008"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -172,12 +142,6 @@
         "Entry"
         {
         "MsmKey" = "8:_09CE277928A5463997CB52CCAFBDCAE3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_09F9906189334132AE841E0ABF47DB97"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -279,12 +243,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0E05C1DC1698466780D9E16A978C9F84"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_0E11263C5AB9430C9F78A76B82176728"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -292,6 +250,12 @@
         "Entry"
         {
         "MsmKey" = "8:_0E1318C8F1A7493985E6C5A3B151C523"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0E4740DD39D24BC2BC53EA76B3249E23"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -345,6 +309,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_12979CF2F3194D7CAEC1716FC004E4B3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_12A503A801A445329F65D99EA4A873CC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -353,12 +323,6 @@
         {
         "MsmKey" = "8:_14D17889960C1D0A67EC2C659C4609E2"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_16853545B3A34100A93D76655D9E330E"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -454,24 +418,6 @@
         "Entry"
         {
         "MsmKey" = "8:_1CFD94DCA9A04400ACE9E5B3BAE33FF3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1D69B40B50C94663A1549A0351380F31"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1F00724B0FE342BDAC063BA91A353504"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1F1087E5F94D418FB4048EF166E73FA5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -681,12 +627,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_31C7085BDEBC4F2B8C501D3D0C0F700E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_3227439FEC7C4F779447D4C211065FFA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -765,13 +705,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3C765B8BD2AC4F1AA33E4364BDFAF269"
+        "MsmKey" = "8:_3D31E5D9501844B5BF74614F442CEE52"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3D31E5D9501844B5BF74614F442CEE52"
+        "MsmKey" = "8:_3E0A5C2F5E0D4E31B476C4A334CDB811"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -825,12 +765,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_41CC9F74BF834594A615FE44E8F11A4D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_424EF5D05A114DDBAED9FAF9DF987293"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -873,12 +807,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_44223DAB873147D5902EEA63DD537AF9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4465327F28466687CD47CD4D18498AC9"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
         "MsmSig" = "8:_UNDEFINED"
@@ -904,12 +832,6 @@
         "Entry"
         {
         "MsmKey" = "8:_45DF1D8FFEC04719977C2785DBC0D4DF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_46070ECE48594C2688D5AA7AD17A1FD0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -946,12 +868,6 @@
         "Entry"
         {
         "MsmKey" = "8:_48F036BA837F49219F4ABB500AAE04F7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_491C66C995794B68A0507FB924F55BFF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1197,6 +1113,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_591E4C2CA26E47E8B8515EBDCFA8E051"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_594D16F96E7545D79C0B1D02584BD8AA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1263,7 +1185,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5EC2FF72C8304CAD8C32353347AA0C08"
+        "MsmKey" = "8:_5DF97C18326F4B0A8A257C3D1D6B6EE7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1299,12 +1221,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_60A573026C9345D4AAFD4DFBE592A07C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_611BF6DF153FCBCCEBE1AA763028DBD9"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
         "MsmSig" = "8:_UNDEFINED"
@@ -1312,12 +1228,6 @@
         "Entry"
         {
         "MsmKey" = "8:_61ECBAC2BC5D47E09CEF3A242603843B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_62137EC7A1B2496294004C232A7F84D8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1335,13 +1245,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_62E12AC047F94D4384C0C54D72BA2D20"
+        "MsmKey" = "8:_641B9FDE152D45278EA4438CA60A93E5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_641B9FDE152D45278EA4438CA60A93E5"
+        "MsmKey" = "8:_6428CABFFAEF4E369077B689A4151DC5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1491,6 +1401,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_732A5D15C5DE489B88A616FC9E7504AA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7392CEA945FF44E086EF3EBDA9C5210C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1527,13 +1443,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_75ADB94E08764CA1ADCC0EFC62E4D7F9"
+        "MsmKey" = "8:_75715232F45946B78BC7A633BEB1661D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_75E05010D1ED44E789BD13AD3F00F43F"
+        "MsmKey" = "8:_75ADB94E08764CA1ADCC0EFC62E4D7F9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1569,7 +1485,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7A0E7DE8F2CB4B9690AA656CFB45D124"
+        "MsmKey" = "8:_79B541A627F44EB594297136C9393D9C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1629,7 +1545,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7DA0231610B443EDBA843760CEA62392"
+        "MsmKey" = "8:_7D89FFD3624D4ACDAA9BCD0767E7284C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1654,18 +1570,6 @@
         "Entry"
         {
         "MsmKey" = "8:_8088784D436C4B92B9D8CED87F547B1E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_80BD090472264757B378DE974E29B3C5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_80E73F04A0DB4E2C810DA4941135948D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1737,6 +1641,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_86B958FED6714AF0858D6D86B0892794"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_870B9E32354846D180C48C6EFCFF41E9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1767,6 +1677,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_88667C4744724085A5FB224EE58A32AE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_89567B47CE1D4CD6B1AADC2D07C3F824"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1781,12 +1697,6 @@
         {
         "MsmKey" = "8:_8A7BD2CADD2A5299DCBD30788E7C497F"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8B75C3DE92A9426CA6E8680C7DE89C5A"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1809,13 +1719,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8CA894D8559D42C88D3006FFDAFF92F2"
+        "MsmKey" = "8:_8CA0B905A15349F2B75DCC864A0BD3FB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8D884FDA41624B3BB0F4E4B13E067062"
+        "MsmKey" = "8:_8CA894D8559D42C88D3006FFDAFF92F2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1924,12 +1834,6 @@
         "Entry"
         {
         "MsmKey" = "8:_997606293C6A42EEBF97180326B4634A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_99798B67852F4274B3E99753ECA42E8E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2079,6 +1983,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A3BF230185D945649B538234C45BDD37"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A54CDBF990D945A89DF1815560204030"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2175,12 +2085,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AB9496FE98414924B7410FE428F474F8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_ABAC1E42E2337EBBFD23C18ECB316A9E"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
         "MsmSig" = "8:_UNDEFINED"
@@ -2188,6 +2092,12 @@
         "Entry"
         {
         "MsmKey" = "8:_ABC93D16C2524B1D9F008BE19C613564"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AD206C5F71F54690ABE673174F6B5959"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2205,13 +2115,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AFEC2733D2734AC68FDFAB31CE242845"
+        "MsmKey" = "8:_AF874F9B68DD41A1A04A9C4798FAABA0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B02634281E864BC0A845B263CF7B76AA"
+        "MsmKey" = "8:_AFEC2733D2734AC68FDFAB31CE242845"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2283,6 +2193,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B52858444799452BAFF1808CA5C3EC56"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B530007C188144D4BDA5751BF417F575"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2291,6 +2207,12 @@
         {
         "MsmKey" = "8:_B5C4BCC475AB13A128A6D9FE8CBD808A"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B5D11D53E89843739A36C1B7916FC251"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -2337,12 +2259,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BB3973AC2BC742E38EBEB4F73BA31D19"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_BB75621EE3DC447E9CEE1F278A8704B4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2351,6 +2267,12 @@
         {
         "MsmKey" = "8:_BBC26E88E96BF0ADE33E1E2A05A685A5"
         "OwnerKey" = "8:_CE4CF79651B4D4F48C93CB325BA16DD5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BBD8F38BCB1E4AEB8F97A1AB79317352"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -2433,12 +2355,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C17DA0AE7C504DEEB2B909C1619BCEA7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C1882645270A4BB0A3D4B395CFD47253"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2487,12 +2403,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C4A11ECCA4A64DF385D91C77BA01D50D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C5BE11F6D8054008AA5C0C5A8B64C1D0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2511,13 +2421,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C7D5D59923E84D20BE2B891B3CEF8AB8"
+        "MsmKey" = "8:_C72F5D5EDA3645DA981BE972AA906DD8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C7FE4A2DE4D246AE863BD8BEB1DC06B4"
+        "MsmKey" = "8:_C7D5D59923E84D20BE2B891B3CEF8AB8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2571,25 +2481,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CAFBC3AD37AF4A78AC6D6287FB06DF22"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_CB19FE452BC04FC5931BC149E76B5E63"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CB1A0456359141CF9DAF63A71DD2FA30"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CB2BF6D2084F4455B8A80884EE0DB272"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2673,18 +2565,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D131EFFDE8414F499646E6177E7BD7B9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D19269D0BF9F40D69E45B64ADD96AFDF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D206A30B6AB6468ABD5D109C57AB06E4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2727,13 +2607,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D47AD785C7BA407D9A9E310CD9C69053"
+        "MsmKey" = "8:_D5174868BA3B446980B882E7BC56B5DD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D5174868BA3B446980B882E7BC56B5DD"
+        "MsmKey" = "8:_D5295A8DEEBE4D3FACA7F8502D44AE48"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2758,12 +2638,6 @@
         "Entry"
         {
         "MsmKey" = "8:_D812D3680B7D4BBCBC2BE87CD58CE423"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D83BE21967514279B32D1AC022D8DC1A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2853,7 +2727,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DF0C6522D6F44AE9B380147FB9EDF1E0"
+        "MsmKey" = "8:_DF478B2AFFFB46F293E170D91220B054"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2937,12 +2811,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E20536E0B3374DA595A44C16F31081E5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E3BD244716844CC4850619F5B6C42AD6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2985,32 +2853,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E6649AF5859240329A76133313ED2290"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E69938FAA1A648D39D36F221CE2C7E2C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E8CABBEBE739722C33E3D7D7A910AA79"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E909708E056046D788EFD1B221EB7AFA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E9A2D32C67CC4AD8A43935BABBB6C4EB"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -3076,12 +2920,6 @@
         "Entry"
         {
         "MsmKey" = "8:_EEEA2D5AD0774C05B77C0901751B465B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EF979A3AC9294C1EB3D0282EEFE3AB74"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -3153,18 +2991,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F6E983D7C7C249A0881867D72034B41B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F6F06312640945F4AA2922D7BDEE13D1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F7819C02790D2692F728108B078E6786"
         "OwnerKey" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
         "MsmSig" = "8:_UNDEFINED"
@@ -3172,12 +2998,6 @@
         "Entry"
         {
         "MsmKey" = "8:_F7E88BF808BA4B24B6C76DD9AE500583"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8BACF7C5CB940DC896238C20FA263B1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -3195,7 +3015,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F94B9B8F3DD84E86A21081F39705E518"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FA419397C71840078F2C14063FA7243F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FA839BFE8C49438FB4AB7C152A6B713A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -3233,12 +3065,6 @@
         {
         "MsmKey" = "8:_FFA1493C6A854B8E9EAD9E42B11CCF4D"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A1083320A1E7C2D7C4DB26387A7405F7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -3649,6 +3475,12 @@
         "OwnerKey" = "8:_99E1ACB0DE1AD8D8FA05C53912EB5752"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A1083320A1E7C2D7C4DB26387A7405F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -3661,12 +3493,28 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -3683,6 +3531,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -3752,12 +3608,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0118B67A91D84437A8B1733635DD8FD7"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_01381A20E041423BAB010EBC2B6A428F"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\12.jpg"
-            "TargetName" = "8:12.jpg"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Chat_01.ico"
+            "TargetName" = "8:Chat_01.ico"
             "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3832,46 +3688,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03222F11541D4FB4BDD9DF312191E37E"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BXINACT--2.png"
-            "TargetName" = "8:BXINACT--2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03373CDF131D4F4F9005BD505D8E0A00"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BLoadINACT--2.png"
-            "TargetName" = "8:BLoadINACT--2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_038712761C9C46F686FF6B19F68D4853"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm19V3.txt"
@@ -3898,26 +3714,6 @@
             "TargetName" = "8:Samm5V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_594E988CFD9A4CEFADA590B221981C49"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_049ACE07FA1B443395F2947F35724FF9"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\7.jpg"
-            "TargetName" = "8:7.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3992,26 +3788,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0566684DA2EE4844A26BAA465E857D9C"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\4.jpg"
-            "TargetName" = "8:4.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_057189AE5A76432FAE7224312902E896"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Nuppud\\Samm10V2.txt"
@@ -4038,26 +3814,6 @@
             "TargetName" = "8:Samm15V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_594E988CFD9A4CEFADA590B221981C49"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0675B4A32029442AA29C682EE0CAA008"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveACT-2.png"
-            "TargetName" = "8:BSaveACT-2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4238,26 +3994,6 @@
             "TargetName" = "8:Samm17V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_09F9906189334132AE841E0ABF47DB97"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveINACT--4.png"
-            "TargetName" = "8:BSaveINACT--4.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4592,26 +4328,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E05C1DC1698466780D9E16A978C9F84"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveINACT--3.png"
-            "TargetName" = "8:BSaveINACT--3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E11263C5AB9430C9F78A76B82176728"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm14V2.txt"
@@ -4638,6 +4354,26 @@
             "TargetName" = "8:Samm6V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E4740DD39D24BC2BC53EA76B3249E23"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Shopping cart.ico"
+            "TargetName" = "8:Shopping cart.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4812,6 +4548,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_12979CF2F3194D7CAEC1716FC004E4B3"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Arrow Down.ico"
+            "TargetName" = "8:Arrow Down.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_12A503A801A445329F65D99EA4A873CC"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Samm12V2.txt"
@@ -4861,26 +4617,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_16853545B3A34100A93D76655D9E330E"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\11.jpg"
-            "TargetName" = "8:11.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_16D6634B86FA4660AEC62DB9E4B5FC40"
@@ -5222,66 +4958,6 @@
             "TargetName" = "8:Samm4V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_594E988CFD9A4CEFADA590B221981C49"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D69B40B50C94663A1549A0351380F31"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\500828093.jpg"
-            "TargetName" = "8:500828093.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F00724B0FE342BDAC063BA91A353504"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\10.jpg"
-            "TargetName" = "8:10.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F1087E5F94D418FB4048EF166E73FA5"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\Old_Key_Pin.png"
-            "TargetName" = "8:Old_Key_Pin.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5980,26 +5656,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31C7085BDEBC4F2B8C501D3D0C0F700E"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\3.jpg"
-            "TargetName" = "8:3.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3227439FEC7C4F779447D4C211065FFA"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm6V3.txt"
@@ -6271,12 +5927,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C765B8BD2AC4F1AA33E4364BDFAF269"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D31E5D9501844B5BF74614F442CEE52"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\13.jpg"
-            "TargetName" = "8:13.jpg"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Samm21V3.txt"
+            "TargetName" = "8:Samm21V3.txt"
             "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
+            "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6291,12 +5947,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D31E5D9501844B5BF74614F442CEE52"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E0A5C2F5E0D4E31B476C4A334CDB811"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Samm21V3.txt"
-            "TargetName" = "8:Samm21V3.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Add.ico"
+            "TargetName" = "8:Add.ico"
             "Tag" = "8:"
-            "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6475,26 +6131,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41CC9F74BF834594A615FE44E8F11A4D"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BNewINACT--1.png"
-            "TargetName" = "8:BNewINACT--1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_424EF5D05A114DDBAED9FAF9DF987293"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm1V2.txt"
@@ -6626,26 +6262,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44223DAB873147D5902EEA63DD537AF9"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BCreditsACT-1.png"
-            "TargetName" = "8:BCreditsACT-1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4465327F28466687CD47CD4D18498AC9"
             {
             "AssemblyRegister" = "3:1"
@@ -6703,26 +6319,6 @@
             "TargetName" = "8:Samm18V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_55C7E50918464EDF8B9AF628A7A3F48D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_46070ECE48594C2688D5AA7AD17A1FD0"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveINACT--2.png"
-            "TargetName" = "8:BSaveINACT--2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6843,26 +6439,6 @@
             "TargetName" = "8:Samm21V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_594E988CFD9A4CEFADA590B221981C49"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_491C66C995794B68A0507FB924F55BFF"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\5.jpg"
-            "TargetName" = "8:5.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7692,6 +7268,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_591E4C2CA26E47E8B8515EBDCFA8E051"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Rectangle Green.ico"
+            "TargetName" = "8:Rectangle Green.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_594D16F96E7545D79C0B1D02584BD8AA"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm9V3.txt"
@@ -7936,12 +7532,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5EC2FF72C8304CAD8C32353347AA0C08"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5DF97C18326F4B0A8A257C3D1D6B6EE7"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BStartINACT--1.png"
-            "TargetName" = "8:BStartINACT--1.png"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Arrow Up.ico"
+            "TargetName" = "8:Arrow Up.ico"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8078,26 +7674,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_60A573026C9345D4AAFD4DFBE592A07C"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BProfilesINACT--1.png"
-            "TargetName" = "8:BProfilesINACT--1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_611BF6DF153FCBCCEBE1AA763028DBD9"
             {
             "AssemblyRegister" = "3:1"
@@ -8135,26 +7711,6 @@
             "TargetName" = "8:Samm20V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62137EC7A1B2496294004C232A7F84D8"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\9.jpg"
-            "TargetName" = "8:9.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8209,12 +7765,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62E12AC047F94D4384C0C54D72BA2D20"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_641B9FDE152D45278EA4438CA60A93E5"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\14.jpg"
-            "TargetName" = "8:14.jpg"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm3V1.txt"
+            "TargetName" = "8:Samm3V1.txt"
             "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
+            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8229,12 +7785,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_641B9FDE152D45278EA4438CA60A93E5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6428CABFFAEF4E369077B689A4151DC5"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm3V1.txt"
-            "TargetName" = "8:Samm3V1.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Contact.ico"
+            "TargetName" = "8:Contact.ico"
             "Tag" = "8:"
-            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8751,6 +8307,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_732A5D15C5DE489B88A616FC9E7504AA"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\House.ico"
+            "TargetName" = "8:House.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7392CEA945FF44E086EF3EBDA9C5210C"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm2V3.txt"
@@ -8884,12 +8460,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_75ADB94E08764CA1ADCC0EFC62E4D7F9"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_75715232F45946B78BC7A633BEB1661D"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Samm9V2.txt"
-            "TargetName" = "8:Samm9V2.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Arrow Back.ico"
+            "TargetName" = "8:Arrow Back.ico"
             "Tag" = "8:"
-            "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8904,12 +8480,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_75E05010D1ED44E789BD13AD3F00F43F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_75ADB94E08764CA1ADCC0EFC62E4D7F9"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\kapp.png"
-            "TargetName" = "8:kapp.png"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Samm9V2.txt"
+            "TargetName" = "8:Samm9V2.txt"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9046,12 +8622,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7A0E7DE8F2CB4B9690AA656CFB45D124"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_79B541A627F44EB594297136C9393D9C"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BProfilesACT-2.png"
-            "TargetName" = "8:BProfilesACT-2.png"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\User Info.ico"
+            "TargetName" = "8:User Info.ico"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9246,12 +8822,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7DA0231610B443EDBA843760CEA62392"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7D89FFD3624D4ACDAA9BCD0767E7284C"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSettingsINACT--1.png"
-            "TargetName" = "8:BSettingsINACT--1.png"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Delete_01.ico"
+            "TargetName" = "8:Delete_01.ico"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9332,46 +8908,6 @@
             "TargetName" = "8:Samm7V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80BD090472264757B378DE974E29B3C5"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSettingsINACT--21.png"
-            "TargetName" = "8:BSettingsINACT--21.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80E73F04A0DB4E2C810DA4941135948D"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\Untitled.png"
-            "TargetName" = "8:Untitled.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9597,6 +9133,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_86B958FED6714AF0858D6D86B0892794"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Rectangle Blue.ico"
+            "TargetName" = "8:Rectangle Blue.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_870B9E32354846D180C48C6EFCFF41E9"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm1V1.txt"
@@ -9719,6 +9275,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_88667C4744724085A5FB224EE58A32AE"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\File.ico"
+            "TargetName" = "8:File.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_89567B47CE1D4CD6B1AADC2D07C3F824"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm9V3.txt"
@@ -9788,26 +9364,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B75C3DE92A9426CA6E8680C7DE89C5A"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\6.jpg"
-            "TargetName" = "8:6.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C3D043D57B441DDB1B7019B5B6EFFAD"
@@ -9881,12 +9437,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CA894D8559D42C88D3006FFDAFF92F2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CA0B905A15349F2B75DCC864A0BD3FB"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm14V1.txt"
-            "TargetName" = "8:Samm14V1.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Arrow Forward.ico"
+            "TargetName" = "8:Arrow Forward.ico"
             "Tag" = "8:"
-            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9901,12 +9457,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D884FDA41624B3BB0F4E4B13E067062"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CA894D8559D42C88D3006FFDAFF92F2"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSettingsINACT--2.png"
-            "TargetName" = "8:BSettingsINACT--2.png"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm14V1.txt"
+            "TargetName" = "8:Samm14V1.txt"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10267,26 +9823,6 @@
             "TargetName" = "8:Samm18V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_99798B67852F4274B3E99753ECA42E8E"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\8.jpg"
-            "TargetName" = "8:8.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10816,6 +10352,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A3BF230185D945649B538234C45BDD37"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Paste.ico"
+            "TargetName" = "8:Paste.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A54CDBF990D945A89DF1815560204030"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm3V2.txt"
@@ -11109,26 +10665,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AB9496FE98414924B7410FE428F474F8"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\20.jpg"
-            "TargetName" = "8:20.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ABAC1E42E2337EBBFD23C18ECB316A9E"
             {
             "AssemblyRegister" = "3:1"
@@ -11166,6 +10702,26 @@
             "TargetName" = "8:Samm1V1.txt"
             "Tag" = "8:"
             "Folder" = "8:_56E34CFB07E0484DAD00EF926A6B4E78"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD206C5F71F54690ABE673174F6B5959"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Print.ico"
+            "TargetName" = "8:Print.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -11220,12 +10776,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AFEC2733D2734AC68FDFAB31CE242845"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF874F9B68DD41A1A04A9C4798FAABA0"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm7V2.txt"
-            "TargetName" = "8:Samm7V2.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\User.ico"
+            "TargetName" = "8:User.ico"
             "Tag" = "8:"
-            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -11240,12 +10796,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B02634281E864BC0A845B263CF7B76AA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AFEC2733D2734AC68FDFAB31CE242845"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BProfilesINACT--2.png"
-            "TargetName" = "8:BProfilesINACT--2.png"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm7V2.txt"
+            "TargetName" = "8:Samm7V2.txt"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -11480,6 +11036,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B52858444799452BAFF1808CA5C3EC56"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Door.ico"
+            "TargetName" = "8:Door.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B530007C188144D4BDA5751BF417F575"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm4V1.txt"
@@ -11529,6 +11105,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5D11D53E89843739A36C1B7916FC251"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Delete.ico"
+            "TargetName" = "8:Delete.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5DC386857484F889502E6793E006E83"
@@ -11662,26 +11258,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB3973AC2BC742E38EBEB4F73BA31D19"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BExitACT-2.png"
-            "TargetName" = "8:BExitACT-2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB75621EE3DC447E9CEE1F278A8704B4"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\RUS\\Nuppud\\Samm8V2.txt"
@@ -11731,6 +11307,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BBD8F38BCB1E4AEB8F97A1AB79317352"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Pie Diagram.ico"
+            "TargetName" = "8:Pie Diagram.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BD11589BB9F29AFF777D69CEA5B978BC"
@@ -12015,26 +11611,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C17DA0AE7C504DEEB2B909C1619BCEA7"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\2.jpg"
-            "TargetName" = "8:2.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1882645270A4BB0A3D4B395CFD47253"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Samm5V3.txt"
@@ -12206,26 +11782,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C4A11ECCA4A64DF385D91C77BA01D50D"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\16.jpg"
-            "TargetName" = "8:16.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5BE11F6D8054008AA5C0C5A8B64C1D0"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Nuppud\\Samm15V2.txt"
@@ -12286,12 +11842,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C7D5D59923E84D20BE2B891B3CEF8AB8"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C72F5D5EDA3645DA981BE972AA906DD8"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Nuppud\\Samm20V2.txt"
-            "TargetName" = "8:Samm20V2.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Copy.ico"
+            "TargetName" = "8:Copy.ico"
             "Tag" = "8:"
-            "Folder" = "8:_55C7E50918464EDF8B9AF628A7A3F48D"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -12306,12 +11862,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C7FE4A2DE4D246AE863BD8BEB1DC06B4"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C7D5D59923E84D20BE2B891B3CEF8AB8"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\17.jpg"
-            "TargetName" = "8:17.jpg"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Nuppud\\Samm20V2.txt"
+            "TargetName" = "8:Samm20V2.txt"
             "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
+            "Folder" = "8:_55C7E50918464EDF8B9AF628A7A3F48D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -12497,72 +12053,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CAFBC3AD37AF4A78AC6D6287FB06DF22"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BLoadINACT--1.png"
-            "TargetName" = "8:BLoadINACT--1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB19FE452BC04FC5931BC149E76B5E63"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm14V2.txt"
             "TargetName" = "8:Samm14V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_040725A954214387BFC63EC5E5F926CD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB1A0456359141CF9DAF63A71DD2FA30"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BExitACT-3.png"
-            "TargetName" = "8:BExitACT-3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB2BF6D2084F4455B8A80884EE0DB272"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveINACT--1.png"
-            "TargetName" = "8:BSaveINACT--1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -12859,46 +12355,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D131EFFDE8414F499646E6177E7BD7B9"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\19.jpg"
-            "TargetName" = "8:19.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D19269D0BF9F40D69E45B64ADD96AFDF"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BCreditsINACT--1.png"
-            "TargetName" = "8:BCreditsINACT--1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D206A30B6AB6468ABD5D109C57AB06E4"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm11V2.txt"
@@ -13050,12 +12506,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D47AD785C7BA407D9A9E310CD9C69053"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5174868BA3B446980B882E7BC56B5DD"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\18.jpg"
-            "TargetName" = "8:18.jpg"
+            "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm15V3.txt"
+            "TargetName" = "8:Samm15V3.txt"
             "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
+            "Folder" = "8:_040725A954214387BFC63EC5E5F926CD"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -13070,12 +12526,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5174868BA3B446980B882E7BC56B5DD"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5295A8DEEBE4D3FACA7F8502D44AE48"
             {
-            "SourcePath" = "8:..\\KHAE\\GameTexts\\ENG\\Samm15V3.txt"
-            "TargetName" = "8:Samm15V3.txt"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Sign In.ico"
+            "TargetName" = "8:Sign In.ico"
             "Tag" = "8:"
-            "Folder" = "8:_040725A954214387BFC63EC5E5F926CD"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -13178,26 +12634,6 @@
             "TargetName" = "8:Samm19V2.txt"
             "Tag" = "8:"
             "Folder" = "8:_2B0A126566EF427591EEB45DAB6B9B6D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D83BE21967514279B32D1AC022D8DC1A"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\0.jpg"
-            "TargetName" = "8:0.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -13525,12 +12961,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF0C6522D6F44AE9B380147FB9EDF1E0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF478B2AFFFB46F293E170D91220B054"
             {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSettingsACT-2.png"
-            "TargetName" = "8:BSettingsACT-2.png"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Class.ico"
+            "TargetName" = "8:Class.ico"
             "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -13818,26 +13254,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E20536E0B3374DA595A44C16F31081E5"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\test.png"
-            "TargetName" = "8:test.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E3BD244716844CC4850619F5B6C42AD6"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Nuppud\\Samm8V1.txt"
@@ -13978,46 +13394,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E6649AF5859240329A76133313ED2290"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BStartACT-1.png"
-            "TargetName" = "8:BStartACT-1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E69938FAA1A648D39D36F221CE2C7E2C"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\main.png"
-            "TargetName" = "8:main.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E8CABBEBE739722C33E3D7D7A910AA79"
             {
             "AssemblyRegister" = "3:1"
@@ -14047,46 +13423,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E909708E056046D788EFD1B221EB7AFA"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BLoadINACT--11.png"
-            "TargetName" = "8:BLoadINACT--11.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E9A2D32C67CC4AD8A43935BABBB6C4EB"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BExitINACT--2.png"
-            "TargetName" = "8:BExitINACT--2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E9A5B36E4039C2C5D1402B0A3BAF08D3"
@@ -14286,26 +13622,6 @@
             "TargetName" = "8:Samm10V3.txt"
             "Tag" = "8:"
             "Folder" = "8:_424568FEC1B547C88F2B5B8A9EDDBC88"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EF979A3AC9294C1EB3D0282EEFE3AB74"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\1.jpg"
-            "TargetName" = "8:1.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -14562,46 +13878,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6E983D7C7C249A0881867D72034B41B"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\InGameImgs\\15.jpg"
-            "TargetName" = "8:15.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_C71F79D197044EE98732AFD7A6681623"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6F06312640945F4AA2922D7BDEE13D1"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BLoadACT-2.png"
-            "TargetName" = "8:BLoadACT-2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F7819C02790D2692F728108B078E6786"
             {
             "AssemblyRegister" = "3:1"
@@ -14639,26 +13915,6 @@
             "TargetName" = "8:Samm12V1.txt"
             "Tag" = "8:"
             "Folder" = "8:_424568FEC1B547C88F2B5B8A9EDDBC88"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F8BACF7C5CB940DC896238C20FA263B1"
-            {
-            "SourcePath" = "8:..\\KHAE\\GameImg\\BSaveACT-1.png"
-            "TargetName" = "8:BSaveACT-1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_44997FC435324A06A309471863E20B29"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -14713,12 +13969,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F94B9B8F3DD84E86A21081F39705E518"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Chart.ico"
+            "TargetName" = "8:Chart.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA419397C71840078F2C14063FA7243F"
             {
             "SourcePath" = "8:..\\KHAE\\GameTexts\\EST\\Nuppud\\Samm7V1.txt"
             "TargetName" = "8:Samm7V1.txt"
             "Tag" = "8:"
             "Folder" = "8:_55C7E50918464EDF8B9AF628A7A3F48D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA839BFE8C49438FB4AB7C152A6B713A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\ICO\\Chat.ico"
+            "TargetName" = "8:Chat.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4E8FEE4DBF444B86BC3417B147F5DC97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -14968,26 +14264,15 @@
                             }
                         }
                     }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_44997FC435324A06A309471863E20B29"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_4E8FEE4DBF444B86BC3417B147F5DC97"
                     {
-                    "Name" = "8:GameImg"
+                    "Name" = "8:ICO"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_A9B9AA347DCB434EAA85314B8EE81368"
+                    "Property" = "8:_BFE1CCDE9B6548A9B19F56BCBC826A6B"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_C71F79D197044EE98732AFD7A6681623"
-                            {
-                            "Name" = "8:InGameImgs"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_299FB3CE6A07444592769ABE7991D4D0"
-                                "Folders"
-                                {
-                                }
-                            }
                         }
                     }
                 }
@@ -15009,7 +14294,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:KHAE"
         "ProductCode" = "8:{29D6D682-6FBF-4129-8F79-69727F120A89}"
-        "PackageCode" = "8:{E7E2A376-84D9-433D-9C15-4579592AC8E7}"
+        "PackageCode" = "8:{605AC2D4-1EBA-4F70-AC9A-92D9B76FCE45}"
         "UpgradeCode" = "8:{BA9116C9-F91F-4E9D-B48D-1131F9FA259C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -15017,7 +14302,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:KHAE"
+        "Manufacturer" = "8:KHAE &Co"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:KHAE"
@@ -15140,7 +14425,7 @@
             "Target" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
             "Folder" = "8:_6F21BABDF56942478E55AA80D216E59F"
             "WorkingFolder" = "8:_E0EEFD301BB849EA89724E4E7A884F35"
-            "Icon" = "8:"
+            "Icon" = "8:_86B958FED6714AF0858D6D86B0892794"
             "Feature" = "8:"
             }
         }

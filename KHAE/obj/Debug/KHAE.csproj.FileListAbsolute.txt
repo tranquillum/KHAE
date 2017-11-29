@@ -86,6 +86,7 @@ C:\Users\opilane\Source\Repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\opilane\Source\Repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\opilane\Source\Repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\opilane\Source\Repos\KHAE\KHAE\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.Game.resources
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.LangSat.resources
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.Properties.Resources.resources
@@ -93,4 +94,3 @@ C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.C
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.exe
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.pdb
-C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
