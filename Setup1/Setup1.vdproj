@@ -3538,6 +3538,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -14175,6 +14183,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_12CF6C82FABA4D6984237B5691313569"
+                    {
+                    "Name" = "8:KHAE"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_FD2B37E58C3B4C5FAD7DEBA6A80D4A03"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_E0EEFD301BB849EA89724E4E7A884F35"
@@ -14294,7 +14313,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:KHAE"
         "ProductCode" = "8:{29D6D682-6FBF-4129-8F79-69727F120A89}"
-        "PackageCode" = "8:{605AC2D4-1EBA-4F70-AC9A-92D9B76FCE45}"
+        "PackageCode" = "8:{93C8511B-8534-4F16-9CD1-696A0F4AF2B9}"
         "UpgradeCode" = "8:{BA9116C9-F91F-4E9D-B48D-1131F9FA259C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -14414,6 +14433,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2008B2645D10499C8ED66366C6BAA63A"
+            {
+            "Name" = "8:KHAE"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_430BFACCF51C4D2D948DFD973539E8DF"
+            "Folder" = "8:_12CF6C82FABA4D6984237B5691313569"
+            "WorkingFolder" = "8:_E0EEFD301BB849EA89724E4E7A884F35"
+            "Icon" = "8:_86B958FED6714AF0858D6D86B0892794"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4A04CB3F6997480288CCDCC41A7DF1C6"
             {
             "Name" = "8:KHAEShortcut"
