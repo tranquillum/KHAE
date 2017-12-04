@@ -93,3 +93,4 @@ C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csproj.GenerateResource.C
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.exe
 C:\Users\opilane\Source\Repos\KHAE\KHAE\obj\Debug\KHAE.pdb
+C:\Users\opilane\source\repos\KHAE\KHAE\obj\Debug\KHAE.csprojResolveAssemblyReference.cache
